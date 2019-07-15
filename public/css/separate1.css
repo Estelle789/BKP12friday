@@ -1,0 +1,173 @@
+.travelfar{
+    margin-top:25px;
+}
+.travelfar h6{
+    margin-bottom:20px;
+    margin-left:10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.manyVisit{
+    margin-top:25px;
+}
+.manyVisit h6{
+    margin-bottom:20px;
+    margin-left:10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:green;
+}
+.manyWalks{
+    margin-top:25px;
+}
+.manyWalks h6{
+    margin-bottom:20px;
+    margin-left:10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.homeVisits{
+    margin-top:25px;
+}
+.homeVisits h6{
+    margin-bottom:20px;
+    margin-left:10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.normalyWalking{
+    margin-top:25px !important;
+}
+.normalyWalking p{
+ margin-left:15px !important;
+}
+.normalyWalking h6{
+    margin-bottom:20px;
+    margin-left:10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.babysittingCancelation{
+    margin-top:25px;
+}
+.babysittingCancelation p{
+    margin-left:25px;
+}
+.babysittingCancelation h6{
+    margin-bottom:20px;
+    margin-left:10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.stayAttime{
+    margin-top:8.8%;
+}
+.stayAttime h4{
+    margin-bottom:15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.dogstayAttime{
+margin-left:5%;
+position: relative !important;
+}
+.dogstayinput{
+    width: 5.0rem;
+    
+}
+.comedogdaycare{
+    margin-top:20px;
+    position: relative !important;
+}
+.comedogdaycare h4{
+margin-top:25px;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.cancomesametime{
+width: 3.4rem;
+margin-left:33px;
+}
+.checkin-out-time{
+    margin-top:25px;
+    margin-bottom:25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.collectDogs{
+    margin-top:15px;
+    margin-bottom:15px;
+}
+.collectDogs h5{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 15px;
+}
+.collectdogsinput{
+    width: 5rem;
+}
+.babydogwalk{
+    margin-top:15px;
+}
+.babydogwalk h5{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom:15px;
+}
+.babydogwalks{
+    width: 5rem;
+}
+.accommodation{
+    margin-top:15px;
+}
+.accommodation h5{
+    margin-top:10px;
+    margin-bottom:10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.accommodations{
+width: 5rem;
+}
+.doYouhaveCat{
+    margin-top:15px;
+}
+.doYouhaveCat h5{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:25px;
+    margin-bottom:15px;
+}
+.doYouhaveCat h6{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    margin-top:15px;
+}
+.doYouhaveCat input{
+ margin-left:15px;
+  margin-top:20px;
+}
+.cageEggs{
+    margin-top:20px;
+}
+.cageEggs h6{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    margin-bottom:15px;
+}
+.cageEggs input{
+    margin-left:15px !important;
+}
+.atHome{
+    margin-top:15px;
+}
+.atHome h4{
+    margin-bottom:15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.atHome h6{
+    margin-bottom:15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.atHome p{
+  margin-left:15px;
+}
+.yourExperience h5{
+    margin-top:15px;
+    margin-bottom:20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:24px;
+    color:red;
+}
+.yourExperience h6{
+    margin-top:15px;
+    margin-bottom:15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

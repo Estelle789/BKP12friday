@@ -1,0 +1,18 @@
+[31-Mar-2019 09:59:39 UTC] PHP Notice:  Undefined index: day in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/petsitter/user.inc.php on line 8
+[31-Mar-2019 09:59:39 UTC] PHP Notice:  Undefined index: month in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/petsitter/user.inc.php on line 9
+[31-Mar-2019 09:59:39 UTC] PHP Notice:  Undefined index: year in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/petsitter/user.inc.php on line 10
+[31-Mar-2019 09:59:39 UTC] PHP Notice:  Undefined index: medium in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/petsitter/user.inc.php on line 35
+[31-Mar-2019 09:59:39 UTC] PHP Notice:  Undefined index: large in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/petsitter/user.inc.php on line 36
+[31-Mar-2019 09:59:39 UTC] PHP Notice:  Undefined index: pupy in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/petsitter/user.inc.php on line 42
+[31-Mar-2019 09:59:39 UTC] PHP Notice:  Undefined index: adult in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/petsitter/user.inc.php on line 43
+[31-Mar-2019 09:59:39 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/petsitter/user.inc.php on line 81
+[31-Mar-2019 09:59:39 UTC] PHP Notice:  Undefined index: medium in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/petsitter/user.inc.php on line 86
+[31-Mar-2019 09:59:39 UTC] PHP Notice:  Undefined index: large in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/petsitter/user.inc.php on line 86
+[17-Apr-2019 16:35:37 UTC] PHP Notice:  Undefined index: day in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/petsitter/user.inc.php on line 8
+[17-Apr-2019 16:35:37 UTC] PHP Notice:  Undefined index: month in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/petsitter/user.inc.php on line 9
+[17-Apr-2019 16:35:37 UTC] PHP Notice:  Undefined index: year in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/petsitter/user.inc.php on line 10
+[17-Apr-2019 16:35:37 UTC] PHP Notice:  Undefined index: large in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/petsitter/user.inc.php on line 36
+[17-Apr-2019 16:35:37 UTC] PHP Notice:  Undefined index: pupy in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/petsitter/user.inc.php on line 42
+[17-Apr-2019 16:35:37 UTC] PHP Notice:  Undefined index: parent in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/petsitter/user.inc.php on line 44
+[17-Apr-2019 16:35:37 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/petsitter/user.inc.php on line 81
+[17-Apr-2019 16:35:37 UTC] PHP Notice:  Undefined index: large in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/petsitter/user.inc.php on line 86

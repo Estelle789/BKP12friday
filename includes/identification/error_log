@@ -1,0 +1,36 @@
+[04-Apr-2019 09:52:08 UTC] PHP Notice:  Undefined variable: pdo in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/identification/loginfunc.php on line 16
+[04-Apr-2019 09:52:08 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/identification/loginfunc.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/identification/loginfunc.php on line 16
+[14-Apr-2019 18:25:29 UTC] PHP Notice:  Undefined variable: pdo in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/identification/loginfunc.php on line 16
+[14-Apr-2019 18:25:29 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/identification/loginfunc.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/identification/loginfunc.php on line 16
+[14-Apr-2019 18:26:57 UTC] PHP Notice:  Undefined variable: pdo in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/identification/loginfunc.php on line 16
+[14-Apr-2019 18:26:57 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/identification/loginfunc.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/identification/loginfunc.php on line 16
+[14-Apr-2019 18:27:39 UTC] PHP Notice:  Undefined variable: pdo in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/identification/loginfunc.php on line 16
+[14-Apr-2019 18:27:39 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/identification/loginfunc.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/identification/loginfunc.php on line 16
+[14-Apr-2019 18:27:51 UTC] PHP Notice:  Undefined variable: pdo in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/identification/loginfunc.php on line 16
+[14-Apr-2019 18:27:51 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/identification/loginfunc.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/identification/loginfunc.php on line 16
+[14-Apr-2019 18:28:21 UTC] PHP Notice:  Undefined variable: pdo in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/identification/loginfunc.php on line 16
+[14-Apr-2019 18:28:21 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/identification/loginfunc.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/identification/loginfunc.php on line 16
+[14-Apr-2019 18:28:53 UTC] PHP Notice:  Undefined variable: pdo in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/identification/loginfunc.php on line 16
+[14-Apr-2019 18:28:53 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/identification/loginfunc.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/identification/loginfunc.php on line 16
+[17-Apr-2019 23:50:43 UTC] PHP Notice:  Undefined variable: hashedPassword in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/identification/registerfunc.php on line 122

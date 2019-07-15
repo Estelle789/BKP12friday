@@ -1,0 +1,11 @@
+[11-Mar-2019 22:11:41 UTC] PHP Notice:  Undefined index: hsDaycare in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/hotel/modify_services-func.php on line 25
+[11-Mar-2019 22:11:47 UTC] PHP Notice:  Undefined index: boarding in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/hotel/modify_services-func.php on line 19
+[11-Mar-2019 22:11:47 UTC] PHP Notice:  Undefined index: daycare in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/hotel/modify_services-func.php on line 20
+[11-Mar-2019 22:11:47 UTC] PHP Notice:  Undefined index: hsDaycare in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/hotel/modify_services-func.php on line 25
+[11-Mar-2019 22:11:47 UTC] PHP Warning:  Use of undefined constant on - assumed 'on' (this will throw an Error in a future version of PHP) in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/hotel/modify_services-func.php on line 56
+[11-Mar-2019 22:11:47 UTC] PHP Warning:  Use of undefined constant on - assumed 'on' (this will throw an Error in a future version of PHP) in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/hotel/modify_services-func.php on line 112
+[11-Mar-2019 22:11:51 UTC] PHP Notice:  Undefined index: boarding in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/hotel/modify_services-func.php on line 19
+[11-Mar-2019 22:11:51 UTC] PHP Notice:  Undefined index: daycare in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/hotel/modify_services-func.php on line 20
+[11-Mar-2019 22:11:51 UTC] PHP Notice:  Undefined index: hsDaycare in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/hotel/modify_services-func.php on line 25
+[11-Mar-2019 22:11:51 UTC] PHP Warning:  Use of undefined constant on - assumed 'on' (this will throw an Error in a future version of PHP) in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/hotel/modify_services-func.php on line 56
+[11-Mar-2019 22:11:51 UTC] PHP Warning:  Use of undefined constant on - assumed 'on' (this will throw an Error in a future version of PHP) in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/hotel/modify_services-func.php on line 112

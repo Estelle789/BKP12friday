@@ -1,0 +1,503 @@
+
+
+/* Add background color to the top navigation */
+
+.topnav3{background-color: #219f78;}
+
+/* Changing the style of the links inside the navigation bar */
+.topnav a{
+	color: #f2f2f2;
+	text-align: center;
+	margin: 0 5px 0 5px;
+	text-decoration: none;
+	font-size: 16px;
+}
+
+#right_side_div_nav{
+	float: right;
+	padding: 12px;
+	margin-right: 10%;
+}
+
+#left_side_div_nav{
+	float: left;
+	padding: 12px;
+	margin-left: 10%;
+}
+
+#left_side_div_nav button{
+	background-color: #219f78;
+	text-align: left;
+	width: 90%;
+	border: none;
+	cursor: pointer;
+}
+
+#left_side_div_nav img{
+	width: 80%;
+}
+
+
+
+
+.become_partner{
+	background-color: #219f78;
+	border-radius: 5px;
+	border: solid 1px white;
+	padding: 4px;
+	font-weight: bold; 
+	cursor: pointer;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.become_partner a{
+	color: #444;
+	color: white;
+	font-size: 11px;
+}
+
+.how_it_works{
+	cursor: pointer;
+	margin-right: 30px;
+	background-color: #219f78;
+	border-radius: 5px;
+	border:none;
+	padding: 3px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.how_it_works a{
+	font-size: 12px;
+}
+
+
+#flag{
+	padding: 0;
+	margin: 10px 0 0 10px;
+    position: absolute;
+    left: 49%;
+
+} 
+
+#flag_selector{
+	position: absolute;
+	left: 47%;
+	background-color: #219f78;
+	width: 150px;
+	height: 100px;
+	z-index: 1;
+	top: 6%;
+	display: none;
+	border: 1px solid white;
+	border-radius: 5px;
+}
+
+#flag_selector img {
+  	width: 25px;
+  	height: 25px;
+  	height: 25px;
+    position: absolute;  
+}
+
+#flag_selector a{
+	position: absolute;
+	left: 50px;
+}
+.flag1{
+    top: 10px;
+    left:-30px;
+}
+
+.flag2{
+	top: 35px;
+	left:-30px;
+}
+
+.flag3{
+	top: 60px;
+	left:-30px;
+}
+
+#img_flag1{
+	top: 10px;
+}
+
+#img_flag2{
+	top: 35px;
+}
+
+#img_flag3{
+	top:60px;
+}
+
+#currency{
+	position: absolute;
+    left: 47%;
+    margin: 10px 10px 0 0;
+    font-size: 150%;
+}
+
+#currency_selector{
+	text-align: center;
+	position: absolute;
+    left: 44%;
+    top: 5%;
+    margin: 10px 10px 0 0;
+    font-size: 150%;
+    background-color: #219f78;
+    width: 100px;
+    z-index: 1;
+    display: none;
+    border: 1px solid white;
+	border-radius: 10px;
+}
+
+/* To change the color of the links on hover */
+.topnav a:hover{
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+/* -------------------- Services Dropdown -------------- */
+.dropbtn{
+	background-color: #219f78;
+	color: white;
+	padding: 5px;
+	font-size: 13px;
+	width: 100px;
+	border: none;
+	border-radius: 5px;
+	margin-right: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.dropdown{
+	position: relative;
+	display: inline-block;
+	margin-left: 13%;
+	padding: 5px;
+}
+
+.dropbtn:hover {
+	background-color: #3e8e41;
+}
+
+
+#active_service{
+	border: solid 1px white;
+}
+
+
+/*****************************************************************************/
+.data_input_container{
+	display: inline-flex;
+	height: 40px;
+	border: 2px solid yellow;
+	text-align: center;
+	margin-top: 4%;
+	margin-bottom: 3%;
+   
+}
+
+.address_div, .calendars_div, .pet_icons_div{
+	display: inline-flex;
+	margin: 0;
+	background-color: white;
+}
+
+.address_div{
+	position: relative;
+}
+
+#get_location_icon{
+	width: 26px;
+	height: 26px;
+	position: absolute;
+	right: 3px;
+	top: 7px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#startLat{
+	display: none;
+}
+
+#startLon{
+	display: none;
+}
+
+.data_input_container button{
+	background-color: white;
+	border: none;
+}
+.data_input_container img{
+	width: 100%;
+	height: 100%;
+}
+
+.address_div input{
+	width: 270px;
+	border: 1px solid yellow;
+	text-align: center;
+}
+
+.pet_icons_div{
+	position: relative;
+	border: 1px solid yellow;
+}
+
+.calendars_div input{
+	border: none;
+	width: 100%;
+	height: 90%;
+	left: 25%;
+	text-align: center;
+	cursor: pointer;
+}
+
+.sub_calendar_div{
+	border: 1px solid yellow;
+	position: relative;
+	width: 120px;
+}
+
+.sub_calendar_div img{
+	width: 18px;
+	height: 18px;
+	position: absolute;
+	top: 6px;
+}
+
+
+/* HOME PAGE PET SELECTOR (Size) */
+#pet_selector_boarding{
+	display: none;
+	text-align: left;
+	background-color: white;
+	border: 2px solid #84d157;
+	position: absolute;
+	color: black;
+	top: 45px;
+	left: -90px;
+	height: 240px;
+	width: 270px;
+	border-radius: 3px;
+	z-index: 10;
+}
+
+#pet_selector_boarding img{
+	width: 28px;
+	height: 28px;
+	position: absolute;
+}
+
+#catIcon{
+	left: 0;
+	top: 15px;
+}
+
+#dogIcon{
+	left: 0;
+	top: 120px;
+}
+
+/***** PET SELECTOR STYLES ****/
+#pet_selector_boarding p{
+	margin: 15px 0 15px 60px;
+
+}
+
+#add_pets_div_1{
+    position: absolute;
+    right: 10px;
+    top: 15px;
+    border: 1px solid green;
+}
+
+#add_pets_div_1 button{
+	font-size: 15px;
+	background-color: #84d157;
+	width: 24px;
+	padding-bottom: 1px;
+}
+
+#input1{
+	border: none;
+	text-align: center;
+}
+
+#add_pets_div_2{
+    position: absolute;
+    right: 10px;
+    top: 67px;
+    border: 1px solid green;
+}
+
+#add_pets_div_2 button{
+	font-size: 15px;
+	background-color: #84d157;
+	width: 24px;
+	padding-bottom: 1px;
+}
+
+#input2{
+	border: none;
+	text-align: center;
+}
+
+#add_pets_div_3{
+    position: absolute;
+    right: 10px;
+    top: 102px;
+    border: 1px solid green;
+}
+
+#add_pets_div_3 button{
+	font-size: 15px;
+	background-color: #84d157;
+	width: 24px;
+	padding-bottom: 1px;
+}
+
+#input3{
+	border: none;
+	text-align: center;
+}
+
+#add_pets_div_4{
+    position: absolute;
+    right: 10px;
+    top: 137px;
+    border: 1px solid green;
+}
+
+#add_pets_div_4 button{
+	font-size: 15px;
+	background-color: #84d157;
+	width: 24px;
+	padding-bottom: 1px;
+}
+
+#input4{
+	border: none;
+	text-align: center;
+}
+
+#add_pets_div_5{
+    position: absolute;
+    right: 10px;
+    top: 172px;
+    border: 1px solid green;
+}
+
+#add_pets_div_5 button{
+	font-size: 15px;
+	background-color: #84d157;
+	width: 24px;
+	padding-bottom: 1px;
+}
+
+#input5{
+	border: none;
+	text-align: center;
+}
+
+#button_add_pets_div{
+	padding: 5px;
+	width: 75px;
+	background-color: #84d157;
+	border-radius: 5px;
+}
+
+#container_button_add_pets_div{
+	text-align: center;
+}
+
+/* ------------------------CONTENT----------------------------*/
+.partner_div{
+	width: 49%;
+	height: 300px;
+	position: relative;
+	display: inline-flex;
+	margin-bottom: 40px;
+}
+
+.partner_div img{
+	width: 100%;
+	height: 100%;
+	border-radius: 3px 3px 0 0;
+}
+
+.hotel_name{
+	position: absolute;
+	top: 0px;
+	left: 35px;
+	color: #EEE;
+	font-size: 28px;
+	text-shadow: 2px 2px #222;
+}
+
+.hotel_location{
+	position: absolute;
+	top: 40px;
+	left: 35px;
+	color: #EEE;
+	font-size: 22px;
+	text-shadow: 1px 1px #000;
+}
+
+.hotel_services{
+	position: absolute;
+	bottom: 10px;
+	left: 35px;
+	color: #EEE;
+	font-size: 20px;
+	text-shadow: 1px 1px #000;
+}
+
+
+
+
+/* ----------------------------------------------------*/
+.social_media{text-align: center;
+	margin-top: 100px;
+
+}
+.social_media img{width:45px; padding: 0; margin: 0 5px 0 5px;}
+
+.social_media img:hover{
+	width: 55px;
+	margin-bottom: -10px;
+}
+
+
+/* Last Updates */
+/* ----------- FORM STYLES ------------*/
+
+fieldset{
+	color: white;
+	margin: 0 10% 0 10%;
+	border: none;
+	text-align: center;
+
+}
+
+#submit_button{
+	background-color: #59bf71;
+	border: none;
+	color: white;
+	width: 90px;
+	height: 100%;
+	font-size: 16px;
+}
+
+.form_div_2 p{margin-top: 0;}
+/*********************************************************************************/
+
+
+
+
+
+
+

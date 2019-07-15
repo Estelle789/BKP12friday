@@ -1,0 +1,102 @@
+[11-Mar-2019 22:11:41 UTC] PHP Notice:  Undefined index: hsDaycare in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/hotel/modify_services-func.php on line 25
+[11-Mar-2019 22:11:47 UTC] PHP Notice:  Undefined index: boarding in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/hotel/modify_services-func.php on line 19
+[11-Mar-2019 22:11:47 UTC] PHP Notice:  Undefined index: daycare in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/hotel/modify_services-func.php on line 20
+[11-Mar-2019 22:11:47 UTC] PHP Notice:  Undefined index: hsDaycare in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/hotel/modify_services-func.php on line 25
+[11-Mar-2019 22:11:47 UTC] PHP Warning:  Use of undefined constant on - assumed 'on' (this will throw an Error in a future version of PHP) in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/hotel/modify_services-func.php on line 56
+[11-Mar-2019 22:11:47 UTC] PHP Warning:  Use of undefined constant on - assumed 'on' (this will throw an Error in a future version of PHP) in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/hotel/modify_services-func.php on line 112
+[11-Mar-2019 22:11:51 UTC] PHP Notice:  Undefined index: boarding in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/hotel/modify_services-func.php on line 19
+[11-Mar-2019 22:11:51 UTC] PHP Notice:  Undefined index: daycare in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/hotel/modify_services-func.php on line 20
+[11-Mar-2019 22:11:51 UTC] PHP Notice:  Undefined index: hsDaycare in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/hotel/modify_services-func.php on line 25
+[11-Mar-2019 22:11:51 UTC] PHP Warning:  Use of undefined constant on - assumed 'on' (this will throw an Error in a future version of PHP) in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/hotel/modify_services-func.php on line 56
+[11-Mar-2019 22:11:51 UTC] PHP Warning:  Use of undefined constant on - assumed 'on' (this will throw an Error in a future version of PHP) in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/hotel/modify_services-func.php on line 112
+[11-Mar-2019 22:19:47 UTC] PHP Notice:  Undefined index: hsDaycare in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/hotel/modify_services-func.php on line 25
+[11-Mar-2019 22:19:51 UTC] PHP Notice:  Undefined index: boarding in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/hotel/modify_services-func.php on line 19
+[11-Mar-2019 22:19:51 UTC] PHP Notice:  Undefined index: daycare in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/hotel/modify_services-func.php on line 20
+[11-Mar-2019 22:19:51 UTC] PHP Notice:  Undefined index: hsDaycare in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/hotel/modify_services-func.php on line 25
+[11-Mar-2019 22:19:51 UTC] PHP Warning:  Use of undefined constant on - assumed 'on' (this will throw an Error in a future version of PHP) in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/hotel/modify_services-func.php on line 52
+[11-Mar-2019 22:19:51 UTC] PHP Warning:  Use of undefined constant on - assumed 'on' (this will throw an Error in a future version of PHP) in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/hotel/modify_services-func.php on line 108
+[15-Apr-2019 02:58:02 UTC] PHP Notice:  Undefined index: daycare in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/hotel/services_add-func.php on line 16
+[15-Apr-2019 02:58:02 UTC] PHP Warning:  Use of undefined constant on - assumed 'on' (this will throw an Error in a future version of PHP) in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/hotel/services_add-func.php on line 45
+[15-Apr-2019 02:58:08 UTC] PHP Notice:  Undefined index: dogWashingh in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/hotel/other_services_update-func.php on line 19
+[15-Apr-2019 02:58:08 UTC] PHP Notice:  Undefined index: __catWashing in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/hotel/other_services_update-func.php on line 20
+[15-Apr-2019 02:58:08 UTC] PHP Notice:  Undefined index: _catWashh in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/hotel/other_services_update-func.php on line 21
+[15-Apr-2019 02:58:08 UTC] PHP Notice:  Undefined index: __nailclipping in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/hotel/other_services_update-func.php on line 23
+[15-Apr-2019 02:58:08 UTC] PHP Notice:  Undefined index: _nailClippingdog in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/hotel/other_services_update-func.php on line 24
+[15-Apr-2019 02:58:08 UTC] PHP Notice:  Undefined index: _dnhighSession in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/hotel/other_services_update-func.php on line 25
+[15-Apr-2019 02:58:08 UTC] PHP Notice:  Undefined index: _catNailclipping in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/hotel/other_services_update-func.php on line 26
+[15-Apr-2019 02:58:08 UTC] PHP Notice:  Undefined index: _nhcat in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/hotel/other_services_update-func.php on line 27
+[15-Apr-2019 02:58:08 UTC] PHP Notice:  Undefined index: gt in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/hotel/other_services_update-func.php on line 29
+[15-Apr-2019 02:58:08 UTC] PHP Notice:  Undefined index: dogt in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/hotel/other_services_update-func.php on line 30
+[15-Apr-2019 02:58:08 UTC] PHP Notice:  Undefined index: gth in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/hotel/other_services_update-func.php on line 31
+[15-Apr-2019 02:58:08 UTC] PHP Notice:  Undefined index: cgtt in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/hotel/other_services_update-func.php on line 32
+[15-Apr-2019 02:58:08 UTC] PHP Notice:  Undefined index: cgth in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/hotel/other_services_update-func.php on line 33
+[15-Apr-2019 02:58:08 UTC] PHP Notice:  Undefined index: medicate in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/hotel/other_services_update-func.php on line 35
+[15-Apr-2019 02:58:08 UTC] PHP Notice:  Undefined index: dogMedic in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/hotel/other_services_update-func.php on line 36
+[15-Apr-2019 02:58:08 UTC] PHP Notice:  Undefined index: dmH in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/hotel/other_services_update-func.php on line 37
+[15-Apr-2019 02:58:08 UTC] PHP Notice:  Undefined index: catMedications in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/hotel/other_services_update-func.php on line 38
+[15-Apr-2019 02:58:08 UTC] PHP Notice:  Undefined index: cmhigh in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/hotel/other_services_update-func.php on line 39
+[15-Apr-2019 13:55:58 UTC] PHP Warning:  getimagesize(): Filename cannot be empty in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/hotel/modify_hotel-func.php on line 24
+[15-Apr-2019 16:43:30 UTC] PHP Warning:  Use of undefined constant on - assumed 'on' (this will throw an Error in a future version of PHP) in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/hotel/services_add-func.php on line 45
+[15-Apr-2019 16:44:48 UTC] PHP Notice:  Undefined index: dogWashingh in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/hotel/other_services_update-func.php on line 19
+[15-Apr-2019 16:44:48 UTC] PHP Notice:  Undefined index: __catWashing in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/hotel/other_services_update-func.php on line 20
+[15-Apr-2019 16:44:48 UTC] PHP Notice:  Undefined index: _catWashh in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/hotel/other_services_update-func.php on line 21
+[15-Apr-2019 16:44:48 UTC] PHP Notice:  Undefined index: __nailclipping in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/hotel/other_services_update-func.php on line 23
+[15-Apr-2019 16:44:48 UTC] PHP Notice:  Undefined index: _nailClippingdog in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/hotel/other_services_update-func.php on line 24
+[15-Apr-2019 16:44:48 UTC] PHP Notice:  Undefined index: _dnhighSession in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/hotel/other_services_update-func.php on line 25
+[15-Apr-2019 16:44:48 UTC] PHP Notice:  Undefined index: _catNailclipping in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/hotel/other_services_update-func.php on line 26
+[15-Apr-2019 16:44:48 UTC] PHP Notice:  Undefined index: _nhcat in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/hotel/other_services_update-func.php on line 27
+[15-Apr-2019 16:44:48 UTC] PHP Notice:  Undefined index: gt in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/hotel/other_services_update-func.php on line 29
+[15-Apr-2019 16:44:48 UTC] PHP Notice:  Undefined index: dogt in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/hotel/other_services_update-func.php on line 30
+[15-Apr-2019 16:44:48 UTC] PHP Notice:  Undefined index: gth in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/hotel/other_services_update-func.php on line 31
+[15-Apr-2019 16:44:48 UTC] PHP Notice:  Undefined index: cgtt in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/hotel/other_services_update-func.php on line 32
+[15-Apr-2019 16:44:48 UTC] PHP Notice:  Undefined index: cgth in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/hotel/other_services_update-func.php on line 33
+[15-Apr-2019 16:44:48 UTC] PHP Notice:  Undefined index: medicate in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/hotel/other_services_update-func.php on line 35
+[15-Apr-2019 16:44:48 UTC] PHP Notice:  Undefined index: dogMedic in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/hotel/other_services_update-func.php on line 36
+[15-Apr-2019 16:44:48 UTC] PHP Notice:  Undefined index: dmH in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/hotel/other_services_update-func.php on line 37
+[15-Apr-2019 16:44:48 UTC] PHP Notice:  Undefined index: catMedications in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/hotel/other_services_update-func.php on line 38
+[15-Apr-2019 16:44:48 UTC] PHP Notice:  Undefined index: cmhigh in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/hotel/other_services_update-func.php on line 39
+[15-Apr-2019 21:52:09 UTC] PHP Warning:  Use of undefined constant on - assumed 'on' (this will throw an Error in a future version of PHP) in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/hotel/services_add-func.php on line 45
+[23-Apr-2019 06:46:48 UTC] PHP Notice:  Undefined index: daycare in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/hotel/services_add-func.php on line 16
+[23-Apr-2019 06:46:48 UTC] PHP Warning:  Use of undefined constant on - assumed 'on' (this will throw an Error in a future version of PHP) in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/hotel/services_add-func.php on line 45
+[23-Apr-2019 06:46:50 UTC] PHP Notice:  Undefined index: __washing in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/hotel/other_services_update-func.php on line 17
+[23-Apr-2019 06:46:50 UTC] PHP Notice:  Undefined index: __dogWashing in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/hotel/other_services_update-func.php on line 18
+[23-Apr-2019 06:46:50 UTC] PHP Notice:  Undefined index: dogWashingh in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/hotel/other_services_update-func.php on line 19
+[23-Apr-2019 06:46:50 UTC] PHP Notice:  Undefined index: __catWashing in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/hotel/other_services_update-func.php on line 20
+[23-Apr-2019 06:46:50 UTC] PHP Notice:  Undefined index: _catWashh in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/hotel/other_services_update-func.php on line 21
+[23-Apr-2019 06:46:50 UTC] PHP Notice:  Undefined index: __nailclipping in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/hotel/other_services_update-func.php on line 23
+[23-Apr-2019 06:46:50 UTC] PHP Notice:  Undefined index: _nailClippingdog in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/hotel/other_services_update-func.php on line 24
+[23-Apr-2019 06:46:50 UTC] PHP Notice:  Undefined index: _dnhighSession in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/hotel/other_services_update-func.php on line 25
+[23-Apr-2019 06:46:50 UTC] PHP Notice:  Undefined index: _catNailclipping in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/hotel/other_services_update-func.php on line 26
+[23-Apr-2019 06:46:50 UTC] PHP Notice:  Undefined index: _nhcat in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/hotel/other_services_update-func.php on line 27
+[23-Apr-2019 06:46:50 UTC] PHP Notice:  Undefined index: gt in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/hotel/other_services_update-func.php on line 29
+[23-Apr-2019 06:46:50 UTC] PHP Notice:  Undefined index: dogt in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/hotel/other_services_update-func.php on line 30
+[23-Apr-2019 06:46:50 UTC] PHP Notice:  Undefined index: gth in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/hotel/other_services_update-func.php on line 31
+[23-Apr-2019 06:46:50 UTC] PHP Notice:  Undefined index: cgtt in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/hotel/other_services_update-func.php on line 32
+[23-Apr-2019 06:46:50 UTC] PHP Notice:  Undefined index: cgth in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/hotel/other_services_update-func.php on line 33
+[23-Apr-2019 06:46:50 UTC] PHP Notice:  Undefined index: medicate in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/hotel/other_services_update-func.php on line 35
+[23-Apr-2019 06:46:50 UTC] PHP Notice:  Undefined index: dogMedic in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/hotel/other_services_update-func.php on line 36
+[23-Apr-2019 06:46:50 UTC] PHP Notice:  Undefined index: dmH in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/hotel/other_services_update-func.php on line 37
+[23-Apr-2019 06:46:50 UTC] PHP Notice:  Undefined index: catMedications in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/hotel/other_services_update-func.php on line 38
+[23-Apr-2019 06:46:50 UTC] PHP Notice:  Undefined index: cmhigh in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/hotel/other_services_update-func.php on line 39
+[09-Jun-2019 15:01:00 UTC] PHP Notice:  Undefined index: daycare in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/hotel/modify_services-func.php on line 16
+[09-Jun-2019 15:01:00 UTC] PHP Notice:  Undefined index: highDogdaycare in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/hotel/modify_services-func.php on line 23
+[09-Jun-2019 15:01:00 UTC] PHP Notice:  Undefined index: catDaycare in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/hotel/modify_services-func.php on line 24
+[09-Jun-2019 15:01:00 UTC] PHP Notice:  Undefined index: highSdcat in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/hotel/modify_services-func.php on line 25
+[09-Jun-2019 15:01:19 UTC] PHP Notice:  Undefined index: dogWashingh in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/hotel/other_services_update-func.php on line 19
+[09-Jun-2019 15:01:19 UTC] PHP Notice:  Undefined index: __catWashing in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/hotel/other_services_update-func.php on line 20
+[09-Jun-2019 15:01:19 UTC] PHP Notice:  Undefined index: _catWashh in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/hotel/other_services_update-func.php on line 21
+[09-Jun-2019 15:01:19 UTC] PHP Notice:  Undefined index: __nailclipping in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/hotel/other_services_update-func.php on line 23
+[09-Jun-2019 15:01:19 UTC] PHP Notice:  Undefined index: _nailClippingdog in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/hotel/other_services_update-func.php on line 24
+[09-Jun-2019 15:01:19 UTC] PHP Notice:  Undefined index: _dnhighSession in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/hotel/other_services_update-func.php on line 25
+[09-Jun-2019 15:01:19 UTC] PHP Notice:  Undefined index: _catNailclipping in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/hotel/other_services_update-func.php on line 26
+[09-Jun-2019 15:01:19 UTC] PHP Notice:  Undefined index: _nhcat in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/hotel/other_services_update-func.php on line 27
+[09-Jun-2019 15:01:19 UTC] PHP Notice:  Undefined index: gt in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/hotel/other_services_update-func.php on line 29
+[09-Jun-2019 15:01:19 UTC] PHP Notice:  Undefined index: dogt in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/hotel/other_services_update-func.php on line 30
+[09-Jun-2019 15:01:19 UTC] PHP Notice:  Undefined index: gth in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/hotel/other_services_update-func.php on line 31
+[09-Jun-2019 15:01:19 UTC] PHP Notice:  Undefined index: cgtt in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/hotel/other_services_update-func.php on line 32
+[09-Jun-2019 15:01:19 UTC] PHP Notice:  Undefined index: cgth in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/hotel/other_services_update-func.php on line 33
+[09-Jun-2019 15:01:19 UTC] PHP Notice:  Undefined index: medicate in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/hotel/other_services_update-func.php on line 35
+[09-Jun-2019 15:01:19 UTC] PHP Notice:  Undefined index: dogMedic in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/hotel/other_services_update-func.php on line 36
+[09-Jun-2019 15:01:19 UTC] PHP Notice:  Undefined index: dmH in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/hotel/other_services_update-func.php on line 37
+[09-Jun-2019 15:01:19 UTC] PHP Notice:  Undefined index: catMedications in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/hotel/other_services_update-func.php on line 38
+[09-Jun-2019 15:01:19 UTC] PHP Notice:  Undefined index: cmhigh in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/hotel/other_services_update-func.php on line 39

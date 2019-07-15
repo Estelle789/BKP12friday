@@ -1,0 +1,74 @@
+/* Footer Styles is here  */
+.images{
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.second-floor{
+   margin-top:25px;
+}
+.social-media{
+    margin-top:25px;
+}
+.social-media-icons {
+    margin-top:25px;
+}
+.footer-section{
+    background-color: #219f78 !important;
+    margin-top:25px;
+}
+.footer-header{
+    margin-top:20px;
+   width:100% !important;
+}
+.facebook{
+    margin-left:40%;
+}
+.footer-vacancy{
+    margin-right:2%;
+    margin-top:2.5%;
+}
+.footer-vacancy a {
+  color:#ffffff !important;
+  text-decoration: none !important;
+  
+}
+.footer-Contact{
+    margin-top:2.5%;
+    }
+.footer-Contact a {
+    color:#ffffff !important;
+    text-decoration: none !important;
+}
+.copy-right{
+    color:#ffffff ;
+    margin-top:3%;
+    margin-left:1px;
+}
+.babySitterslocationStreet{
+    margin-top:25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:18px;
+}
+.babySitterslocationCity{
+    margin-top:25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:18px;
+}
+.choosePicture{
+    margin-top:50px !important;
+    margin-bottom:50px !important;
+ padding: 10px;
+ display: table;
+ color: #fff;
+  }
+  .babySitterspicture{
+    display:none;
+
+  }
+  .fa-user-o{
+    color:grey;
+  }
+  .nextone{
+      margin-top:30px !important; 
+  }

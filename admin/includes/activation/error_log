@@ -1,0 +1,56 @@
+[19-Apr-2019 13:34:23 UTC] PHP Warning:  include(../dbh-inic.php): failed to open stream: No such file or directory in /home/qcn3mopbbora/public_html/fatih/bookingpetz/admin/includes/activation/activate.php on line 2
+[19-Apr-2019 13:34:23 UTC] PHP Warning:  include(): Failed opening '../dbh-inic.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/qcn3mopbbora/public_html/fatih/bookingpetz/admin/includes/activation/activate.php on line 2
+[19-Apr-2019 13:34:23 UTC] PHP Notice:  Undefined variable: pdo in /home/qcn3mopbbora/public_html/fatih/bookingpetz/admin/includes/activation/activate.php on line 6
+[19-Apr-2019 13:34:23 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/qcn3mopbbora/public_html/fatih/bookingpetz/admin/includes/activation/activate.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/qcn3mopbbora/public_html/fatih/bookingpetz/admin/includes/activation/activate.php on line 6
+[19-Apr-2019 13:34:35 UTC] PHP Warning:  include(../dbh-inic.php): failed to open stream: No such file or directory in /home/qcn3mopbbora/public_html/fatih/bookingpetz/admin/includes/activation/activate.php on line 2
+[19-Apr-2019 13:34:35 UTC] PHP Warning:  include(): Failed opening '../dbh-inic.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/qcn3mopbbora/public_html/fatih/bookingpetz/admin/includes/activation/activate.php on line 2
+[19-Apr-2019 13:34:35 UTC] PHP Notice:  Undefined variable: pdo in /home/qcn3mopbbora/public_html/fatih/bookingpetz/admin/includes/activation/activate.php on line 6
+[19-Apr-2019 13:34:35 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/qcn3mopbbora/public_html/fatih/bookingpetz/admin/includes/activation/activate.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/qcn3mopbbora/public_html/fatih/bookingpetz/admin/includes/activation/activate.php on line 6
+[19-Apr-2019 13:35:13 UTC] PHP Warning:  include(../dbh-inic.php): failed to open stream: No such file or directory in /home/qcn3mopbbora/public_html/fatih/bookingpetz/admin/includes/activation/activate.php on line 2
+[19-Apr-2019 13:35:13 UTC] PHP Warning:  include(): Failed opening '../dbh-inic.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/qcn3mopbbora/public_html/fatih/bookingpetz/admin/includes/activation/activate.php on line 2
+[19-Apr-2019 13:35:13 UTC] PHP Notice:  Undefined variable: pdo in /home/qcn3mopbbora/public_html/fatih/bookingpetz/admin/includes/activation/activate.php on line 6
+[19-Apr-2019 13:35:13 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/qcn3mopbbora/public_html/fatih/bookingpetz/admin/includes/activation/activate.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/qcn3mopbbora/public_html/fatih/bookingpetz/admin/includes/activation/activate.php on line 6
+[19-Apr-2019 13:35:14 UTC] PHP Warning:  include(../dbh-inic.php): failed to open stream: No such file or directory in /home/qcn3mopbbora/public_html/fatih/bookingpetz/admin/includes/activation/activate.php on line 2
+[19-Apr-2019 13:35:14 UTC] PHP Warning:  include(): Failed opening '../dbh-inic.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/qcn3mopbbora/public_html/fatih/bookingpetz/admin/includes/activation/activate.php on line 2
+[19-Apr-2019 13:35:14 UTC] PHP Notice:  Undefined variable: pdo in /home/qcn3mopbbora/public_html/fatih/bookingpetz/admin/includes/activation/activate.php on line 6
+[19-Apr-2019 13:35:14 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/qcn3mopbbora/public_html/fatih/bookingpetz/admin/includes/activation/activate.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/qcn3mopbbora/public_html/fatih/bookingpetz/admin/includes/activation/activate.php on line 6
+[19-Apr-2019 13:35:21 UTC] PHP Warning:  include(../dbh-inic.php): failed to open stream: No such file or directory in /home/qcn3mopbbora/public_html/fatih/bookingpetz/admin/includes/activation/activate.php on line 2
+[19-Apr-2019 13:35:21 UTC] PHP Warning:  include(): Failed opening '../dbh-inic.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/qcn3mopbbora/public_html/fatih/bookingpetz/admin/includes/activation/activate.php on line 2
+[19-Apr-2019 13:35:21 UTC] PHP Notice:  Undefined variable: pdo in /home/qcn3mopbbora/public_html/fatih/bookingpetz/admin/includes/activation/activate.php on line 6
+[19-Apr-2019 13:35:21 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/qcn3mopbbora/public_html/fatih/bookingpetz/admin/includes/activation/activate.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/qcn3mopbbora/public_html/fatih/bookingpetz/admin/includes/activation/activate.php on line 6
+[19-Apr-2019 13:35:54 UTC] PHP Warning:  include(../dbh-inic.php): failed to open stream: No such file or directory in /home/qcn3mopbbora/public_html/fatih/bookingpetz/admin/includes/activation/activate.php on line 2
+[19-Apr-2019 13:35:54 UTC] PHP Warning:  include(): Failed opening '../dbh-inic.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/qcn3mopbbora/public_html/fatih/bookingpetz/admin/includes/activation/activate.php on line 2
+[19-Apr-2019 13:35:54 UTC] PHP Notice:  Undefined variable: pdo in /home/qcn3mopbbora/public_html/fatih/bookingpetz/admin/includes/activation/activate.php on line 6
+[19-Apr-2019 13:35:54 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/qcn3mopbbora/public_html/fatih/bookingpetz/admin/includes/activation/activate.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/qcn3mopbbora/public_html/fatih/bookingpetz/admin/includes/activation/activate.php on line 6
+[19-Apr-2019 13:38:30 UTC] PHP Warning:  include(../dbh-inic.php): failed to open stream: No such file or directory in /home/qcn3mopbbora/public_html/fatih/bookingpetz/admin/includes/activation/activate.php on line 2
+[19-Apr-2019 13:38:30 UTC] PHP Warning:  include(): Failed opening '../dbh-inic.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/qcn3mopbbora/public_html/fatih/bookingpetz/admin/includes/activation/activate.php on line 2
+[19-Apr-2019 13:38:30 UTC] PHP Notice:  Undefined variable: pdo in /home/qcn3mopbbora/public_html/fatih/bookingpetz/admin/includes/activation/activate.php on line 6
+[19-Apr-2019 13:38:30 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/qcn3mopbbora/public_html/fatih/bookingpetz/admin/includes/activation/activate.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/qcn3mopbbora/public_html/fatih/bookingpetz/admin/includes/activation/activate.php on line 6
+[19-Apr-2019 13:42:42 UTC] PHP Warning:  include(../dbh-inic.php): failed to open stream: No such file or directory in /home/qcn3mopbbora/public_html/fatih/bookingpetz/admin/includes/activation/activate.php on line 2
+[19-Apr-2019 13:42:42 UTC] PHP Warning:  include(): Failed opening '../dbh-inic.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/qcn3mopbbora/public_html/fatih/bookingpetz/admin/includes/activation/activate.php on line 2
+[19-Apr-2019 13:42:42 UTC] PHP Notice:  Undefined variable: pdo in /home/qcn3mopbbora/public_html/fatih/bookingpetz/admin/includes/activation/activate.php on line 6
+[19-Apr-2019 13:42:42 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/qcn3mopbbora/public_html/fatih/bookingpetz/admin/includes/activation/activate.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/qcn3mopbbora/public_html/fatih/bookingpetz/admin/includes/activation/activate.php on line 6

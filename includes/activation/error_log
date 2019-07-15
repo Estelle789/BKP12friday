@@ -1,0 +1,7 @@
+[19-Apr-2019 13:00:08 UTC] PHP Warning:  include(libs/db_connect.php): failed to open stream: No such file or directory in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/activation/activate.php on line 2
+[19-Apr-2019 13:00:08 UTC] PHP Warning:  include(): Failed opening 'libs/db_connect.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/activation/activate.php on line 2
+[19-Apr-2019 13:00:08 UTC] PHP Notice:  Undefined variable: pdo in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/activation/activate.php on line 6
+[19-Apr-2019 13:00:08 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/activation/activate.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/qcn3mopbbora/public_html/fatih/bookingpetz/includes/activation/activate.php on line 6

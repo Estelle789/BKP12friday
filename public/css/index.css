@@ -1,0 +1,214 @@
+html,
+body{
+     height: 100%;
+}
+.col-md-12{
+ padding: 0;
+
+}
+.nav-item-topNavbar{
+  margin-right:20px;
+
+}
+.navbar-general{
+/*padding-right: 55px;*/
+
+}
+.top-navbar{
+  width: 100%;
+  height: 155px;
+  background-color:#0eb25a;
+}
+.top-navbar-partner{
+   border-color: #ffffff;
+   color:#ffffff !important;
+   width: 100%;
+   height: auto;
+   border-radius: 11px;
+   margin-right:10px;
+
+}
+.top-navbar-register{
+  border-radius: 11px;
+  border: solid 1px #ffffff;
+  width: 100%;
+  height: auto;
+  color:#000000 !important;
+  background-color:#ffffff;
+  font-family: Ubuntu;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+
+  letter-spacing: normal;
+  text-align: left;
+}
+.top-navbar-login{
+  border-radius:11px;
+  border: solid 1px #ffffff;
+  background-color:#ffffff ;
+  color:#ff6747 !important;
+  font-family: Ubuntu;
+
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+
+  letter-spacing: normal;
+  text-align: left;
+
+}
+.__search-container{
+    height: 150px;
+    width: 100%;
+display: flex;
+justify-content: center;
+  }
+  .__search-row{
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+  }
+.__search-bar{
+   width: 100%;
+height: 55px;
+border-radius: 11px;
+box-shadow: 0 0px 10px 0 #da4980;
+display: flex;
+justify-content: center;
+
+}
+.pet-declaration {
+ width: 100%;
+height: 220px;
+
+}
+.pet-declaration-row{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+}
+.hotels{
+    color:#000000;
+ width: 100px;
+
+font-family: OpenSans;
+font-size: 20px;
+font-weight: 600;
+font-style: normal;
+font-stretch: normal;
+line-height: 1.35;
+letter-spacing: normal;
+text-align: left;
+padding-right:10px;
+}
+.pet-sitting{
+width: 100%;
+font-family: OpenSans;
+font-size: 20px;
+font-weight: 600;
+font-style: normal;
+font-stretch: normal;
+line-height: 1.35;
+letter-spacing: normal;
+text-align: left;
+color:#000000;
+}
+.pet-walking{
+ width: 100%;
+font-family: OpenSans;
+font-size: 20px;
+font-weight: 600;
+font-style: normal;
+font-stretch: normal;
+line-height: 1.35;
+letter-spacing: normal;
+text-align: left;
+color:#000000;
+
+}
+.second-navbar{
+    padding-right: 10px;
+}
+.second-navbar-text{
+ width: 100%;
+font-family: OpenSans;
+font-size: 30px;
+font-weight: normal;
+font-style: normal;
+font-stretch: normal;
+line-height: 1.37;
+letter-spacing: normal;
+text-align: left;
+}
+.active{
+ height: 7px;
+border-bottom: solid 11px #0eb25a;
+box-shadow: 0 3px 6px 0 #0eb25a;
+border-radius: 11px;
+}
+.__search-button{
+ display: flex;
+/* width: 81px; */
+width: 120px;
+justify-content: center;
+text-align: center;
+}
+input {
+padding:10px;
+font-family: FontAwesome, "Open Sans", Verdana, sans-serif;
+font-style: normal;
+font-weight: normal;
+text-decoration: inherit;
+}
+.option_box{
+font-family: OpenSans;
+font-size: 20px;
+font-weight: bold;
+font-style: normal;
+font-stretch: normal;
+line-height: 1.38;
+letter-spacing: normal;
+text-align: left;
+color: #acacac;
+}
+ .dog-foot-container{
+    width:100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+ }
+ .dog-foot-row{
+     width: 100%;
+ }
+.pin{
+display: flex;
+justify-content: flex-end;
+
+}
+ .booking{
+  display: flex;
+  justify-content: flex-end;
+ }
+.pin > img{
+width: 56px;
+height: 72px
+}
+.booking > img{
+width: 80.7px;
+height: 80.7px;
+}
+.calendar_field::placeholder{
+    padding:10px;
+font-family: FontAwesome, "Open Sans", Verdana, sans-serif;
+font-style: normal;
+font-weight: normal;
+text-decoration: inherit;
+}

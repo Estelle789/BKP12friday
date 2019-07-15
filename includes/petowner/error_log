@@ -1,0 +1,65 @@
+[27-Dec-2018 11:15:49 UTC] PHP Warning:  require_once(dbh-inic.php): failed to open stream: No such file or directory in /home/qcn3mopbbora/public_html/fatih/development/includes/petowner/events.php on line 5
+[27-Dec-2018 11:15:49 UTC] PHP Fatal error:  require_once(): Failed opening required 'dbh-inic.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/qcn3mopbbora/public_html/fatih/development/includes/petowner/events.php on line 5
+[27-Dec-2018 11:16:15 UTC] PHP Warning:  require_once(dbh-inic.php): failed to open stream: No such file or directory in /home/qcn3mopbbora/public_html/fatih/development/includes/petowner/events.php on line 5
+[27-Dec-2018 11:16:15 UTC] PHP Fatal error:  require_once(): Failed opening required 'dbh-inic.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/qcn3mopbbora/public_html/fatih/development/includes/petowner/events.php on line 5
+[27-Dec-2018 11:16:17 UTC] PHP Warning:  require_once(dbh-inic.php): failed to open stream: No such file or directory in /home/qcn3mopbbora/public_html/fatih/development/includes/petowner/events.php on line 5
+[27-Dec-2018 11:16:17 UTC] PHP Fatal error:  require_once(): Failed opening required 'dbh-inic.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/qcn3mopbbora/public_html/fatih/development/includes/petowner/events.php on line 5
+[27-Dec-2018 11:16:27 UTC] PHP Warning:  require_once(dbh-inic.php): failed to open stream: No such file or directory in /home/qcn3mopbbora/public_html/fatih/development/includes/petowner/events.php on line 5
+[27-Dec-2018 11:16:27 UTC] PHP Fatal error:  require_once(): Failed opening required 'dbh-inic.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/qcn3mopbbora/public_html/fatih/development/includes/petowner/events.php on line 5
+[27-Dec-2018 11:44:21 UTC] PHP Warning:  require_once(dbh-inic.php): failed to open stream: No such file or directory in /home/qcn3mopbbora/public_html/fatih/development/includes/petowner/events.php on line 5
+[27-Dec-2018 11:44:21 UTC] PHP Fatal error:  require_once(): Failed opening required 'dbh-inic.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/qcn3mopbbora/public_html/fatih/development/includes/petowner/events.php on line 5
+[27-Dec-2018 11:44:29 UTC] PHP Warning:  require_once(dbh-inic.php): failed to open stream: No such file or directory in /home/qcn3mopbbora/public_html/fatih/development/includes/petowner/events.php on line 5
+[27-Dec-2018 11:44:29 UTC] PHP Fatal error:  require_once(): Failed opening required 'dbh-inic.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/qcn3mopbbora/public_html/fatih/development/includes/petowner/events.php on line 5
+[27-Dec-2018 11:44:34 UTC] PHP Notice:  Undefined index: petownerid in /home/qcn3mopbbora/public_html/fatih/development/includes/petowner/add_events.php on line 7
+[27-Dec-2018 11:44:36 UTC] PHP Warning:  require_once(dbh-inic.php): failed to open stream: No such file or directory in /home/qcn3mopbbora/public_html/fatih/development/includes/petowner/events.php on line 5
+[27-Dec-2018 11:44:36 UTC] PHP Fatal error:  require_once(): Failed opening required 'dbh-inic.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/qcn3mopbbora/public_html/fatih/development/includes/petowner/events.php on line 5
+[27-Dec-2018 11:48:29 UTC] PHP Warning:  require_once(dbh-inic.php): failed to open stream: No such file or directory in /home/qcn3mopbbora/public_html/fatih/development/includes/petowner/events.php on line 5
+[27-Dec-2018 11:48:29 UTC] PHP Fatal error:  require_once(): Failed opening required 'dbh-inic.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/qcn3mopbbora/public_html/fatih/development/includes/petowner/events.php on line 5
+[27-Dec-2018 11:48:32 UTC] PHP Notice:  Undefined index: petownerid in /home/qcn3mopbbora/public_html/fatih/development/includes/petowner/add_events.php on line 7
+[27-Dec-2018 11:48:34 UTC] PHP Warning:  require_once(dbh-inic.php): failed to open stream: No such file or directory in /home/qcn3mopbbora/public_html/fatih/development/includes/petowner/events.php on line 5
+[27-Dec-2018 11:48:34 UTC] PHP Fatal error:  require_once(): Failed opening required 'dbh-inic.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/qcn3mopbbora/public_html/fatih/development/includes/petowner/events.php on line 5
+[27-Dec-2018 11:50:42 UTC] PHP Warning:  require_once(dbh-inic.php): failed to open stream: No such file or directory in /home/qcn3mopbbora/public_html/fatih/development/includes/petowner/events.php on line 5
+[27-Dec-2018 11:50:42 UTC] PHP Fatal error:  require_once(): Failed opening required 'dbh-inic.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/qcn3mopbbora/public_html/fatih/development/includes/petowner/events.php on line 5
+[27-Dec-2018 11:50:49 UTC] PHP Warning:  require_once(dbh-inic.php): failed to open stream: No such file or directory in /home/qcn3mopbbora/public_html/fatih/development/includes/petowner/events.php on line 5
+[27-Dec-2018 11:50:49 UTC] PHP Fatal error:  require_once(): Failed opening required 'dbh-inic.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/qcn3mopbbora/public_html/fatih/development/includes/petowner/events.php on line 5
+[31-Dec-2018 18:48:20 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1142 DELETE command denied to user 'clientmysqli'@'ip-160-153-133-211.ip.secureserver.net' for table 'petowneravailability' in /home/qcn3mopbbora/public_html/fatih/development/includes/petowner/delete-event.php:7
+Stack trace:
+#0 /home/qcn3mopbbora/public_html/fatih/development/includes/petowner/delete-event.php(7): PDOStatement->execute()
+#1 {main}
+  thrown in /home/qcn3mopbbora/public_html/fatih/development/includes/petowner/delete-event.php on line 7
+[31-Dec-2018 19:54:30 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1142 DELETE command denied to user 'clientmysqli'@'ip-160-153-133-211.ip.secureserver.net' for table 'petowneravailability' in /home/qcn3mopbbora/public_html/fatih/development/includes/petowner/delete-event.php:7
+Stack trace:
+#0 /home/qcn3mopbbora/public_html/fatih/development/includes/petowner/delete-event.php(7): PDOStatement->execute()
+#1 {main}
+  thrown in /home/qcn3mopbbora/public_html/fatih/development/includes/petowner/delete-event.php on line 7
+[31-Dec-2018 19:54:38 UTC] PHP Notice:  Undefined index: id in /home/qcn3mopbbora/public_html/fatih/development/includes/petowner/delete-event.php on line 2
+[31-Dec-2018 19:57:21 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1142 DELETE command denied to user 'clientmysqli'@'ip-160-153-133-211.ip.secureserver.net' for table 'petowneravailability' in /home/qcn3mopbbora/public_html/fatih/development/includes/petowner/delete-event.php:7
+Stack trace:
+#0 /home/qcn3mopbbora/public_html/fatih/development/includes/petowner/delete-event.php(7): PDOStatement->execute()
+#1 {main}
+  thrown in /home/qcn3mopbbora/public_html/fatih/development/includes/petowner/delete-event.php on line 7
+[31-Dec-2018 19:58:13 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1142 DELETE command denied to user 'clientmysqli'@'ip-160-153-133-211.ip.secureserver.net' for table 'petowneravailability' in /home/qcn3mopbbora/public_html/fatih/development/includes/petowner/delete-event.php:7
+Stack trace:
+#0 /home/qcn3mopbbora/public_html/fatih/development/includes/petowner/delete-event.php(7): PDOStatement->execute()
+#1 {main}
+  thrown in /home/qcn3mopbbora/public_html/fatih/development/includes/petowner/delete-event.php on line 7
+[31-Dec-2018 20:03:16 UTC] PHP Notice:  Undefined variable: connect in /home/qcn3mopbbora/public_html/fatih/development/includes/petowner/delete-event.php on line 7
+[31-Dec-2018 20:03:16 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/qcn3mopbbora/public_html/fatih/development/includes/petowner/delete-event.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/qcn3mopbbora/public_html/fatih/development/includes/petowner/delete-event.php on line 7
+[31-Dec-2018 20:05:45 UTC] PHP Notice:  Undefined variable: connect in /home/qcn3mopbbora/public_html/fatih/development/includes/petowner/delete-event.php on line 7
+[31-Dec-2018 20:05:45 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/qcn3mopbbora/public_html/fatih/development/includes/petowner/delete-event.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/qcn3mopbbora/public_html/fatih/development/includes/petowner/delete-event.php on line 7
+[31-Dec-2018 20:16:42 UTC] PHP Notice:  Undefined variable: bdd in /home/qcn3mopbbora/public_html/fatih/development/includes/petowner/delete-events.php on line 8
+[31-Dec-2018 20:16:42 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/qcn3mopbbora/public_html/fatih/development/includes/petowner/delete-events.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/qcn3mopbbora/public_html/fatih/development/includes/petowner/delete-events.php on line 8
+[31-Dec-2018 20:23:29 UTC] PHP Notice:  Undefined variable: bdd in /home/qcn3mopbbora/public_html/fatih/development/includes/petowner/delete-events.php on line 8
+[31-Dec-2018 20:23:29 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/qcn3mopbbora/public_html/fatih/development/includes/petowner/delete-events.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/qcn3mopbbora/public_html/fatih/development/includes/petowner/delete-events.php on line 8

@@ -1,0 +1,331 @@
+
+
+/*****************************************************************************/
+.data_input_container{
+	display: inline-flex;
+	height: 40px;
+	border: 2px solid yellow;
+	text-align: center;
+	margin-top: 4%;
+	margin-bottom: 3%;
+
+}
+
+.address_div, .calendars_div, .pet_icons_div{
+	display: inline-flex;
+	margin: 0;
+	background-color: white;
+}
+
+.address_div{
+	position: relative;
+}
+
+#get_location_icon{
+	width: 26px;
+	height: 26px;
+	position: absolute;
+	right: 3px;
+	top: 7px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#startLat{
+	display: none;
+}
+
+#startLon{
+	display: none;
+}
+
+.data_input_container button{
+	background-color: white;
+	border: none;
+}
+.data_input_container img{
+	width: 100%;
+	height: 100%;
+}
+
+.address_div input{
+	width: 270px;
+	border: 1px solid yellow;
+	text-align: center;
+}
+
+.pet_icons_div{
+	position: relative;
+	border: 1px solid yellow;
+}
+
+.calendars_div input{
+	border: none;
+	width: 100%;
+	height: 90%;
+	left: 25%;
+	text-align: center;
+	cursor: pointer;
+}
+
+.sub_calendar_div{
+	border: 1px solid yellow;
+	position: relative;
+	width: 120px;
+}
+
+.sub_calendar_div img{
+	width: 18px;
+	height: 18px;
+	position: absolute;
+	top: 6px;
+}
+
+
+/* HOME PAGE PET SELECTOR (Size) */
+#pet_selector_boarding{
+	display: none;
+	text-align: left;
+	background-color: white;
+	border: 2px solid #84d157;
+	position: absolute;
+	color: black;
+	top: 45px;
+	left: -90px;
+	height: 240px;
+	width: 270px;
+	border-radius: 3px;
+	z-index: 10;
+}
+
+#pet_selector_boarding img{
+	width: 28px;
+	height: 28px;
+	position: absolute;
+}
+
+#catIcon{
+	left: 0;
+	top: 15px;
+}
+
+#dogIcon{
+	left: 0;
+	top: 120px;
+}
+
+/***** PET SELECTOR STYLES ****/
+#pet_selector_boarding p{
+	margin: 15px 0 15px 60px;
+
+}
+
+#add_pets_div_1{
+    position: absolute;
+    right: 10px;
+    top: 15px;
+    border: 1px solid green;
+}
+
+#add_pets_div_1 button{
+	font-size: 15px;
+	background-color: #84d157;
+	width: 24px;
+	padding-bottom: 1px;
+}
+
+#input1{
+	border: none;
+	text-align: center;
+}
+
+#add_pets_div_2{
+    position: absolute;
+    right: 10px;
+    top: 67px;
+    border: 1px solid green;
+}
+
+#add_pets_div_2 button{
+	font-size: 15px;
+	background-color: #84d157;
+	width: 24px;
+	padding-bottom: 1px;
+}
+
+#input2{
+	border: none;
+	text-align: center;
+}
+
+#add_pets_div_3{
+    position: absolute;
+    right: 10px;
+    top: 102px;
+    border: 1px solid green;
+}
+
+#add_pets_div_3 button{
+	font-size: 15px;
+	background-color: #84d157;
+	width: 24px;
+	padding-bottom: 1px;
+}
+
+#input3{
+	border: none;
+	text-align: center;
+}
+
+#add_pets_div_4{
+    position: absolute;
+    right: 10px;
+    top: 137px;
+    border: 1px solid green;
+}
+
+#add_pets_div_4 button{
+	font-size: 15px;
+	background-color: #84d157;
+	width: 24px;
+	padding-bottom: 1px;
+}
+
+#input4{
+	border: none;
+	text-align: center;
+}
+
+#add_pets_div_5{
+    position: absolute;
+    right: 10px;
+    top: 172px;
+    border: 1px solid green;
+}
+
+#add_pets_div_5 button{
+	font-size: 15px;
+	background-color: #84d157;
+	width: 24px;
+	padding-bottom: 1px;
+}
+
+#input5{
+	border: none;
+	text-align: center;
+}
+
+#button_add_pets_div{
+	padding: 5px;
+	width: 75px;
+	background-color: #84d157;
+	border-radius: 5px;
+}
+
+#container_button_add_pets_div{
+	text-align: center;
+}
+/* ----------------------------------------------------*/
+.social_media{text-align: center;
+	margin-top: 100px;
+
+}
+.social_media img{width:45px; padding: 0; margin: 0 5px 0 5px;}
+
+.social_media img:hover{
+	width: 55px;
+	margin-bottom: -10px;
+}
+
+
+/* Last Updates */
+/* ----------- FORM STYLES ------------*/
+
+fieldset{
+	color: white;
+	margin: 0 10% 0 10%;
+	border: none;
+	text-align: center;
+
+}
+
+#submit_button{
+	background-color: #59bf71;
+	border: none;
+	color: white;
+	width: 90px;
+	height: 100%;
+	font-size: 16px;
+}
+
+.form_div_2 p{margin-top: 0;}
+
+footer{
+	padding: 20px;
+	background-color: #62A98A;
+	margin-top: 30px;
+	text-align: center;
+	color: white;
+	bottom: 0;
+}
+
+.footer_links a{
+	text-decoration: none;
+	color: white;
+	margin: 0 2% 0 2%;
+}
+
+.footer_links a:hover{
+	text-decoration: underline;
+}
+
+/* AboutUs styles */
+
+#aboutus_description{
+	float:right;
+	width:40%;
+	margin-right:5%;
+	text-align: left;
+	color: #595959;
+}
+
+h1{
+	text-align: center;
+	font-size: 50px;
+	color: #0f998f;
+}
+
+/* Vacanacy styles */
+
+#container{display: -webkit-box; margin: 0 auto;}
+
+.vacancy_article{
+	text-align: left;
+	color: #595959;
+	display: inline-block;
+	margin-bottom: 10px;
+}
+
+#left_section{width: 35%;  margin: 0 0 0 10%;}
+#right_section{width: 35%; margin: 0 0 0 10%;}
+
+
+#vacancy_image{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#vacancy_h2{
+	font-style: italic;
+	font-size: 30px;
+	margin-left: 10%;
+	color: #0f998f;
+	margin-top: 60px;
+}
+
+#vacancy_h1{
+	text-align: center;
+	font-size: 50px;
+	color: #0f998f;
+}

@@ -1,0 +1,206 @@
+/* FIND FANTASTIC HOTELS FOR YOUR PETS */
+#indexSearch{
+	padding-top: 6%;
+	padding-left: 10%;
+	padding-right: 15%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	font-weight: bold;
+}
+#indexSearch a{
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: bold;
+	color: black;
+}
+#searchButton{
+	width: 200px;
+	height: 40px;
+	border-radius: 11px;
+	border: solid 2px #0eb25a;
+	background-color: #0eb25a;
+	color: white;
+	font-weight: bold;
+}
+#indexForm{
+	margin-top: 50px;
+}
+
+#indexForm form input#whereForm,
+#indexForm form input#daterangepicker{
+	height: 50px;
+	width: 380px;
+	border: 2px solid #0eb25a;
+	margin: 0px;
+	text-align: center;
+	box-shadow: 0 3px 6px 0 #0eb25a;
+}
+#indexForm form #whereForm{
+	width: 360px;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+#daterangepicker{
+	font-size: 15px;
+	width: 400px;
+	color: #757579;
+}
+#indexForm form #searchPets{
+	height: 50px;
+	width: 380px;
+	border: 2px solid #0eb25a;
+	margin: 0px;
+	text-align: center;
+	box-shadow: 0 3px 6px 0 #0eb25a;
+	color: #757579;
+}
+#indexForm form #searchPets p{
+	margin: 0;
+}
+
+
+/* DROPDOWN*/
+.dropbtn {
+  height: 50px;
+  width: 380px;
+  border: 2px solid #0eb25a;
+  margin: 0px;
+  text-align: center;
+  box-shadow: 0 3px 6px 0 #0eb25a;
+  color: #757579;
+  cursor: pointer;
+  background-color: white;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  font-weight: bold;
+  width: 380px;
+  overflow: auto;
+  margin-top: 10px;
+  border-radius: 11px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  right: 0;
+}
+
+
+
+.dropdown a:hover {
+  background-color: #ddd;
+}
+
+.show {
+  display: block;
+}
+
+
+
+.stepper-input {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  font-weight: bold;
+}
+.stepper-input p {
+	margin-right: 100px;
+	margin-top: 16px;
+	margin-bottom: 16px;
+}
+.btn {
+  cursor: pointer;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: white;
+  border: none;
+  font-weight: bold;
+  font-size: 30px !important;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.dogsNumber,
+.catsNumber {
+  text-align: center;
+  border: none;
+  width: 40px;
+  font-weight: bold;
+}
+
+.dogsNumber:focus,
+.catsNumber:focus {
+  outline: none;
+}
+img#petIcon{
+	width: 30px;
+	margin-right: 15px;
+}
+
+
+#indexForm form #goButton{
+	width: 120px;
+	border: 0;
+	color: white;
+	font-weight: bold;
+	background-color: #da4980;
+	border: 2px solid #da4980;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	box-shadow: 0 3px 6px 0 #da4980;
+}
+#pawsBanner img{
+	width: 70%;
+	margin-top: 100px;
+	z-index: -1;
+}
+#curveBanner img{
+	width: 100%;
+}
+
+
+
+
+
+/* OUR BEST*/
+#ourBest{
+	color: black;
+	background-color: #f5f5f5; 
+	padding-bottom: 6% !important;
+}
+#ourBest div a img{
+	border-radius: 6px;
+	width: 300px;
+	margin-top: 60px;
+	margin-bottom: 0px;
+	opacity: 1;
+ }
+#ourBest div a {
+	text-decoration: none;
+	color: grey;
+	width: 300px;
+	text-align: center;
+	font-weight: bold;
+}
+#ourBest div a p:hover{
+	color: black;
+}
+#ourBest div a img:hover{
+	 opacity: 0.6;
+}
+#ourBest div h5{
+	width: 300px;
+	font-weight: bold;
+	text-align: center;
+}
+
+
+
+

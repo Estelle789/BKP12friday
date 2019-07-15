@@ -1,0 +1,42 @@
+.signup-wizard-header , .signup-wizard-header-container{
+    /* display: -webkit-box; */
+    display: -moz-flex;
+     display: -ms-flexbox;
+     display: flex;
+  }
+  .signup-wizard-header .wizard-section-link.enabled{
+    color:#555;
+ 
+  }
+  .signup-wizard-header .wizard-section-link.active{
+    border-bottom:5px solid #79C8a9;
+  }
+  .signup-wizard-header .wizard-section-link{
+    padding-top:20px;
+    padding-bottom:20px;
+    -webkit-box-flex:1;
+    -moz-flex:1 1 auto;
+   -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    font-size:16px;
+    font-family:inherit;
+    color:inherit;
+    font-weight:700;
+    line-height:1.4;
+  }
+  .enabled{
+   color:#519b7a;
+  }
+  .emsg ,.cityEmsg{
+     color: red;
+ }
+ .hidden ,.cityHidden {
+      visibility:hidden;
+ }
+ .services{
+  margin-top:10px;
+ }
+ .dogS,.dogM,.dogL,.dogXL{
+   position:absolute !important;
+   margin:10px !important;
+ }

@@ -1,0 +1,14 @@
+/* FOOTER */
+footer#indexFooter{
+	background-color: #0eb25a;
+	bottom: 0;
+	width: 100%;
+	height: 80px;
+	display: flex;
+	align-items: center;
+	justify-content:space-around;
+	font-weight: bold;
+}
+#indexFooter a{
+	color: white;
+}

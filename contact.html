@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>BookingPetz.com</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image/png" href="public/img/bookingpetz_logo.png">
+	<link rel="stylesheet" type="text/css" href="public/css/contact.css">
+	<link rel="stylesheet" type="text/css" href="public/css/header1.css">
+	<link rel="stylesheet" type="text/css" href="public/css/footer1.css">
+	<meta name="author" content="Claudia Luque">
+
+	<!--JQUERY-->
+	<script src="public/js/jquery/jquery-3.2.1.min.js"></script>
+	<script src="public/js/jquery/jquery-ui.js"></script>
+	<link rel="stylesheet" type="text/css" href="public/js/jquery/jquery-ui.css">
+
+	<!--BOOSTRAP-->
+	<script type="text/javascript" src="public/css/bootstrap-4.0.0/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="public/css/bootstrap-4.0.0/js/bootstrap.bundle.min.js"></script>
+	<link href="css/bootstrap-4.0.0/css/bootstrap.min.css" rel="stylesheet">
+
+
+	<!--DATE RANGE PICKER-->
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="public/css/daterangepicker.css" />
+	<script type="text/javascript" src="public/js/daterangepicker.js"></script>
+
+
+	<!-- FONTS -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+	<!-- FONT AWESOME -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+</head>
+
+<body>
+	<header>
+		<a href="index.php"><img src="public/img/bookingpetz_logo_green.svg" alt="BookingPetz logo" id="logo"></a>
+	</header>
+
+	<div class="center">
+		<div id="contact">
+			<h5 class="bold">Contact Us</h5>
+			<form action="" method="POST">
+				<input type="text" name="contact_name" placeholder="Name" class="contactForm" autofocus required>
+				<input type="text" name="contact_email" placeholder="Email" class="contactForm" required>
+				<input type="text" name="contact_phone" placeholder="Phone" class="contactForm" required>
+				<textarea name="contact_message" class="contactForm"  rows="3" placeholder="Message"></textarea>
+				<div class="center">
+					<input type="submit" class="center bold" wrap="off" value="Send">
+				</div>
+			</form>
+		</div>
+	</div>
+
+</body>
+
+</html>
