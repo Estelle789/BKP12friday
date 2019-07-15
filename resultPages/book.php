@@ -67,7 +67,6 @@
      }
   </style>
 
-
        <div class="container-fluid" style="margin-top:100px;padding-left: 0px;">
           <div class="row">
              <div class="col-md-5" >
@@ -113,14 +112,7 @@
                                                       <img src="../public/img/im3.jpg" class="d-block w-100" alt="..." width="100%">
                                                   </div>
                                                 </div>
-                                                <a class="carousel-control-prev" href="#carousel_<?php echo $row['id']; ?>" role="button" data-slide="prev">
-                                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                                  <span class="sr-only">Previous</span>
-                                                </a>
-                                                <a class="carousel-control-next" href="#carousel_<?php echo $row['id']; ?>" role="button" data-slide="next">
-                                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                                  <span class="sr-only">Next</span>
-                                                </a>
+
                                               </div>
                                         </div>
 
@@ -136,8 +128,28 @@
                                   padding-bottom: 10px; color: green"><strong> <font size="3" color="red"><strong>Services: </strong></font><p style="margin-left:80px">Washing: <font size="3"  >  <strong> Price: 20 € </strong></font></p> <p style="margin-left:80px">Nail clipping:<font size="3"  >  <strong> Price: 20 € </strong></font></p> <p style="margin-left:80px">Grooming: <font size="3"  >  <strong> Price: 20 € </strong></font></p>  </strong></div>
                                </div>
 
+
+
+
+
+                                <form method="POST">
                                <div class="row">
-                               <input type="submit" name="go" value=" BOOK..!!" id="goButton">
+
+                                 <input type="submit" name="go" value=" BOOK..!!" id="goButton">
+
+                                 </form>
+
+                                 <?php
+                                if(isset($_POST['go']) )
+                                {
+
+                                   $conn=mysqli_connect("localhost","root","","bookingpetz");
+                                   $sql = "INSERT INTO `booking_details`(`booking_start_date`, `booking_end_date`, `booked_date`, `booking_price`, `booking_payment_id`, `user_id`, `hotel_id`) VALUES ('2019-07-11','2019-07-18','','100','12345','22','5');";
+                                   mysqli_query($conn,$sql);
+                                }
+                                 ?>
+
+
                                </div>
                                  <div class="row" style="margin-top:20px;">
                                    <div style="color:blue;padding-left:30px;padding-bottom:10px;padding-right:30px"><font size="3" color="red"><strong>Description: </strong></font><strong>If you're booking at least two days in advance and need time to decide, take an option on the room for up to 24 hours. Exclusively for NH Rewards members booking any NH Rewards flexible rate on our website.
@@ -148,6 +160,7 @@
 
                               </div>
                             <?php     }?>
+
 
                             <script>
 
@@ -245,7 +258,7 @@ height:40px;
 border: 0;
 color: white;
 font-weight: bold;
-margin-left: 750px;
+margin-left: 425px;
 margin-bottom: 20px;
 background-color: #da4980;
 border: 2px solid #da4980;
