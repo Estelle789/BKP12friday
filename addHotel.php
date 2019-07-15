@@ -21,7 +21,7 @@
   }?>
 
       <main class="col-md-9 col px-5 pl-md-2 pt-2 main mx-auto">
-        <hr>
+        <hr style="overflow:hidden;">
 
       <div class="container" id="1">
         <div class="signup-wizard-header">

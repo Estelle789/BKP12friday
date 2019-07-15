@@ -43,7 +43,7 @@
 
         <main class="col-md-9 col px-5 pl-md-2 pt-2 main mx-auto">
           <a href="#" data-target="#sidebar" data-toggle="collapse" aria-expanded="false"><i class="fa fa-navicon fa-2x py-2 p-1"></i></a>
-          <hr>
+          <hr style="overflow:hidden;">
 
     <?php function checkFolderIsEmptyOrNot ( $folderName ){ // the folder must exist; returns TRUE if empty
         $files = array ();

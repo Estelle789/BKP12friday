@@ -6,7 +6,7 @@
 }
 #sidebar .list-group {
     min-width: 400px;
-    background-color: #333;
+    /*background-color: #333;*/
     min-height: 100vh;
 }
 #sidebar i {
@@ -15,17 +15,17 @@
 
 #sidebar .list-group-item {
     border-radius: 0;
-    background-color: #333;
-    color: #ccc;
+    /*background-color: #333;*/
+    color: #333;
     border-left: 0;
     border-right: 0;
-    border-color: #2c2c2c;
+    /*border-color: #2c2c2c;*/
     white-space: nowrap;
 }
 
 /* highlight active menu */
 #sidebar .list-group-item:not(.collapsed) {
-    background-color: #222;
+    /*background-color: #222;*/
 }
 
 /* closed state */
@@ -76,13 +76,13 @@
         transform: translateX(-45px);
         position: fixed;
     }
-    
+
     #sidebar.show {
         transform: translateX(0);
     }
 
     #sidebar::-webkit-scrollbar{ width: 0px; }
-    
+
     #sidebar, #sidebar .list-group {
         min-width: 35px;
         overflow: visible;
