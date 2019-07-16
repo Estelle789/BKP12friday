@@ -32,7 +32,7 @@ session_start();
 
     if (isset($_POST["dogsize"])){
 try {
-  
+
     $stmt = $pdo->prepare("INSERT INTO `pets` (`user_id`, `name`, `size`, `animal`, `birthdate`, `sex`, `breed`, `chipnumber`, `description`, `sterilized`, `vaccinations`, `kennel_cough`, `allergies`, `medication`, `with_dogs`, `with_children`, `with_cats`, `walking_routine`, `eating_routine`, `sleep_place`, `vetname`, `vetphone`, `vetaddress`, `insurer`, `policy_number`, `emergency_contact`) VALUES (:userid, :name, :dogsize, 'Dog', :birthdate, :sex, :breed, :chip, :description, :sterilized, :vaccinations, :kennel, :allergies, :medication, :alongwithdogs, :alongwithchildren, :alongwithcats, :walkingroutine, :eatingroutine, :sleep_place, :vetname, :vetphone, :vetaddress, :insurer, :policynumber, :emergencycontact);");
     $stmt->bindParam (":userid", $userid, PDO::PARAM_STR);
     $stmt->bindParam (":name", $name, PDO::PARAM_STR);
@@ -61,7 +61,7 @@ try {
     $stmt->bindParam (":emergencycontact", $emergencycontact, PDO::PARAM_STR);
     $stmt->execute();
     $stmt = null;
-    header ('Location: ../../managepets.php');
+    header ('Location: ../../petowner_dashboard.php');
 }catch(PDOException $e) {
     echo "Error: " . $e->getMessage();
 }
@@ -91,11 +91,11 @@ try {
     $stmt->bindParam (":insurer", $insurer, PDO::PARAM_STR);
     $stmt->bindParam (":policynumber", $policynumber, PDO::PARAM_STR);
     $stmt->bindParam (":emergencycontact", $emergencycontact, PDO::PARAM_STR);
-    
-    
+
+
     $stmt->execute();
     $stmt = null;
-    header ('Location: ../../managepets.php');
+    header ('Location: ../../petowner_dashboard.php');
 }catch(PDOException $e) {
     echo "Error: " . $e->getMessage();
 }

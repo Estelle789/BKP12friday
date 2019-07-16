@@ -48,24 +48,6 @@
               <a href="#" data-target="#sidebar" data-toggle="collapse" aria-expanded="false"><i class="fa fa-navicon fa-2x py-2 p-1"></i></a>
               <hr style="overflow:hidden;">
 
-
-  <?php if (isset($_SESSION['id'])) {
-
-      include 'includes/dbh-inic.php';
-      if (isset($_POST['updateprofile'])) {
-
-          $updateQuery = "UPDATE users SET first_name='" . $_POST['updateName'] . "',last_name='" . $_POST['updateSurname'] . "',username='" . $_POST['updateUsername'] . "',email='" . $_POST['updateEmail'] . "',phone='" . $_POST['updatePhone'] . "' where id='" . $_SESSION['id'] . "'";
-          $r = $pdo->prepare($updateQuery);
-          $r->execute();
-          if ($r == true) {
-              echo "<script type='text/javascript'>alert('Your pofile has been successfully updated');</script> ";
-          } else {
-              echo "<script type='text/javascript'>alert('Something went wrong, please try again');</script>";
-          }
-      }
-      ?>
-
-
   <?php if (isset($_SESSION['id'])) {
         include 'includes/dbh-inic.php';
         ?>
@@ -91,19 +73,21 @@
           </div>
           <div class="col-sm-4" style="margin-top:30px;"><?php echo $_SESSION['first_name']; ?> <?php echo $_SESSION['last_name']; ?><br><br><br>
           <?php echo $_SESSION['email']; ?></div>
-          <div class="col-sm-4" style="margin-top:30px;margin-bottom:500px">
+          <div class="col-sm-4" style="margin-top:30px;">
             Pet owned: <strong><?php
             $nbPets = count($fetchResult);
             echo $nbPets;
             ?></strong>
           </div>
-        <div class="row">
+          <div class="col-md-1">
+          </div>
+        </div>
+        <div class="row justify-content-center" style="margin-top: 50px; margin-right:15px;">
           <?php include 'managepets.php';?>
 
         </div>
-      </div>
 
-        <?php }}?>
+        <?php }?>
           </main>
       </div>
   </div>
