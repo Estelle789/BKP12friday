@@ -64,15 +64,15 @@ foreach ($result as $row) { ?>
         <?php
         if ($row["animal"] == "Dog"){
           ?>
-          <form action="delete_dog.php" method="post" enctype="multipart/form-data" style="display:inline;">
+          <form action="includes/petowner/delete_pet.php" method="post" enctype="multipart/form-data" style="display:inline;" onSubmit="return confirm('Are you sure you wish to delete?');">
             <input type="hidden" value="<?php echo $row["id"];?>" name="pet_id">
-            <input type="submit" value="Delete dog" name="submit" class="btn btn-danger">
+            <input type="submit" value="Delete dog" name="submit" class="btn btn-danger" onclick="confirmation()">
           </form>
           <?php
       }
       if ($row["animal"] == "Cat"){
           ?>
-          <form action="delete_cat.php" method="post" enctype="multipart/form-data" style="display:inline;">
+          <form action="includes/petowner/delete_pet.php" method="post" enctype="multipart/form-data" style="display:inline;" onSubmit="return confirm('Are you sure you wish to delete?');">
             <input type="hidden" value="<?php echo $row["id"];?>" name="pet_id">
             <input type="submit" value="Delete cat" name="submit" class="btn btn-danger" >
           </form>
@@ -88,7 +88,6 @@ foreach ($result as $row) { ?>
 
 <!--<div class="col-md-3 clearfix float-right m-2">
 <div style="position:absolute;">-->
-
 
 <?php
 
