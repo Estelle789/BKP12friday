@@ -90,32 +90,55 @@
   <div class="container-fluid card card-body">
     <div class="row">
       <div class="col-md-12">
-        <label for="hotelimg[]">Hotel Images</label>
+        <label for="hotelimg[]">Hotel Images (3 max. at a time, 1 image per button)</label>
         <br />
-        <input type="file" class="fileupload col-md-2" name="hotelimg[]" accept="image/x-png,image/gif,image/jpeg" multiple="yes">
-        <div class="col-md-3">
-          <div class="dvPreview"></div>
-        </div>
+        <input type="file" class="fileupload col-md-2" name="hotelimg1" accept="image/x-png,image/gif,image/jpeg">
+        <input type="file" class="fileupload col-md-2" name="hotelimg2" accept="image/x-png,image/gif,image/jpeg">
+        <input type="file" class="fileupload col-md-2" name="hotelimg3" accept="image/x-png,image/gif,image/jpeg">
+        <div class="dvPreview"></div>
         <img class="rounded mx-auto d-block addHotelimg" id="blah"src="" >
         <img class="rounded mx-auto d-block col-md-3" align="center" id="blah" width="200" src="">
         <br>
-        <div class="col-md-4">
-
-        <?php
+      </div>
+    </div>
+    <style>
+    .delete-btn {
+      position: absolute;
+      top: 0%;
+      left: 90%;
+      background-color: #eeeeee;
+      color: black;
+      font-size: 12px;
+      border-radius: 2px;
+      border: none;
+      cursor: pointer;
+      text-align: center;
+    }</style>
+    <div class="row">
+          <?php
         $folder = 'images2/' . $_SESSION['id'] .'/' . $fetchResult['id'] . '/';
         if (!file_exists ($folder)) {
           mkdir($folder);
         }
         if(!checkFolderIsEmptyOrNot($folder)) {
-          foreach ( glob($folder . '*') as $file ) {
-             echo "<img src=$file width=200>";
+          foreach ( glob($folder . '*.{jpg,gif,png}',GLOB_BRACE) as $file ) {
+            ?> <div class='col-md-3'>
+            <form action='includes/hotel/delete_image.php' method='post' enctype='multipart/form-data' onSubmit='return confirm('Are you sure you wish to delete?');'>
+              <input type='hidden' value="<?php echo $fetchResult['id'];?>" name="hotel_id">
+              <input type='hidden' value='<?php echo $file; ?>' name='image_name'>
+              <input type='submit' value='X' name='submit' class='delete-btn'>
+            </form>
+            <?php echo "<img src=$file width=200 />"; ?>
+
+            </div>
+
+            <?php
            }
         } ?>
         <!--<input class="form-control" type="file" id="imgInp" name="hotelimg[]" value="Hotel Images" size="60" multiple >-->
         <!--<label id="#bb" class="choosePicture"><i class="fa fa-user-o fa-5x mt-5"></i>
           <input type="file" id="imgInp" name="picture" class="hotelOwnerPicture" size="60">
         </label>-->
-        </div>
 
       </div>
     </div>

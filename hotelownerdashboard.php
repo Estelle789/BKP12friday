@@ -294,7 +294,7 @@
                             $nbimages = count($files);
 
                             if ($nbimages == 0) {
-                              echo "No pictures found for your hotel, add one <a href='hotelupdate.php'>Here</a>";
+                              echo "<div class='justify-content-center' align='center'>No pictures found for your hotel, add one <a href='hotelupdate.php'>Here</a></div>";
                             } elseif ($nbimages == 1) {
                               echo "<img src=$files[0] width=100%>";
                             } else {
