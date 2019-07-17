@@ -1,4 +1,3 @@
-﻿
 
 <!DOCTYPE html>
 <html lang="en">
@@ -27,12 +26,11 @@
     <link rel="stylesheet" href="../public/css/indexStylesheet.css">
     <!-- Css Finish -->
     <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/latest/jquery.min.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
 <!--
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
 -->
-
     <script type="text/javascript" src="../public/js/steptwo.js"></script>
     <script src="https://apis.google.com/js/client:platform.js?onload=renderButton" async defer></script>
     <meta name="google-signin-client_id" content="158080524411-mbe3g4v1mn2m8rrqd5n8sq3u30an1eob.apps.googleusercontent.com">
@@ -183,6 +181,7 @@ function saveUserDat(userData){
 </head>
 
 <body>
+
 <header>
 
   <?php include '../warnings.php';?>
@@ -535,7 +534,7 @@ border: solid 1.5px #ff6747;
 <style>
 
 
-.h3{
+  .h3{
   text-align:center;
 }
   .left {
@@ -548,6 +547,7 @@ border: solid 1.5px #ff6747;
     height: 400px;
     border-radius: 10px;
   }
+
   .or {
     position: absolute;
     top: 77px;
@@ -560,6 +560,7 @@ border: solid 1.5px #ff6747;
     line-height: 40px;
     text-align: center;
   }
+
   .right {
     position:relative;
     top: 0;
@@ -569,7 +570,6 @@ border: solid 1.5px #ff6747;
     width: 100%;
     border-radius: 0 2px 2px 0;
   }
-
 
     .right .loginwith {
       display: block;
@@ -599,12 +599,12 @@ border: solid 1.5px #ff6747;
         position: relative !important;
     }
 
-.right .facebook_login_img{
+    .right .facebook_login_img{
     margin-top:0px;
     width:35% !important;
     height:10%;
-
   }
+
   .google_login{
     margin-top:55px !important;
   }

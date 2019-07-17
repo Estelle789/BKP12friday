@@ -3,7 +3,7 @@
 <link rel="stylesheet" href="public/css/indexStylesheet.css">
 	<div class="center" id="indexForm">
 		<meta name="viewport" content="width=device-width">
-		<form action="resultPages/results.php" method="GET">
+		<form action="results.php" method="GET">
 			<div class="input-group">
 				<input type="text" name="location" placeholder="Where?" id="whereForm">
 				<input type="text" name="searchDate" id="daterangepicker" placeholder="Duration">
