@@ -1,0 +1,6 @@
+Must be done:
+
+-delete first hotel image;
+-add, modify, delete images for pets;
+-error page if not logged in or logged in as the wrong user;
+-table for the hotel services in the hotel dashboard
