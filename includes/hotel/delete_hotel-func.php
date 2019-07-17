@@ -6,6 +6,15 @@ include('../dbh-inic.php');
   session_start();
 
   $hotelid = $_POST['hotel_id'];
+  $target_dir = "../../images2/$sessionID/$hotelid/";
+
+  if (file_exists($target_dir)){
+    foreach ( glob($target_dir . '*') as $file ) {
+      unlink($file);
+    }
+    rmdir($target_dir);
+  }
+
   try {
       $stmt = $pdo->prepare("DELETE FROM hotels where id='$hotelid'");
       $stmt->execute();
