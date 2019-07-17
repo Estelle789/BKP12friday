@@ -1,5 +1,5 @@
 <?php include 'header.php';?>
-<div style="margin-top:400px;">
+<div style="margin-top:100px;">
 
 </div>
  <?php
@@ -369,92 +369,13 @@ function calongwithcats(a) {
 }
 
 function checkdog1() {
-    var name = document.getElementById("name").value;
-    var size = document.getElementById("dogsize").value;
-    var sex = document.getElementById("dogsex").value;
-    var keep;
-    var keep2;
-    var keep0 = true;
-
-    if (name == "") {
-        alert("Please select a valid name");
-        keep0 = false;
-    }
-
-
-    if (size == "S" || size == "M" || size == "L" || size == "XL") {
-        keep = true;
-    } else {
-        keep = false;
-    }
-    if (sex == "Male" || sex == "Female") {
-        keep2 = true;
-    } else {
-        keep2 = false;
-    }
-
-    if (keep == false) {
-        alert("Please select a valid size");
-    }
-    if (keep2 == false) {
-        alert("Please select a valid sex");
-    }
-
-    if (keep == true && keep2 == true && keep0 == true) {
-        submitted = true;
-        document.getElementById("dogform1").submit();
-    }
-
+  submitted = true;
+  document.getElementById("dogform1").submit();
 }
 
 function checkdog2() {
-    var sterilized = document.getElementById("sterilized").value;
-    var alongwithdogs = document.getElementById("alongwithdogs").value;
-    var alongwithchildren = document.getElementById("alongwithchildren").value;
-    var alongwithcats = document.getElementById("alongwithcats").value;
-    var keep;
-    var keep1;
-    var keep2;
-    var keep3;
-
-    if (sterilized == "1" || sterilized == "0") {
-        keep = true;
-    } else {
-        keep = false;
-    }
-    if (alongwithdogs == "1" || alongwithdogs == "0") {
-        keep1 = true;
-    } else {
-        keep1 = false;
-    }
-    if (alongwithchildren == "1" || alongwithchildren == "0") {
-        keep2 = true;
-    } else {
-        keep2 = false;
-    }
-    if (alongwithcats == "1" || alongwithcats == "0") {
-        keep3 = true;
-    } else {
-        keep3 = false;
-    }
-
-    if (keep == false) {
-        alert("Please specify if your dog is sterilized");
-    }
-    if (keep1 == false) {
-        alert("Please specify if your dog is friendly with other dogs");
-    }
-    if (keep2 == false) {
-        alert("Please specify if your dog gets along with children");
-    }
-    if (keep3 == false) {
-        alert("Please specify if your dog gets along with cats");
-    }
-
-    if (keep == true && keep1 == true && keep2 == true && keep3 == true) {
-        submitted = true;
-        document.getElementById("dogform2").submit();
-    }
+  submitted = true;
+  document.getElementById("dogform2").submit();
 }
 
 function displaycat() {
@@ -497,77 +418,13 @@ function catsex(a) {
 }
 
 function checkcat1() {
-    var name = document.getElementById("catname").value;
-    var sex = document.getElementById("catsex").value;
-    var keep2;
-    var keep0 = true;
-
-    if (name == "") {
-        alert("Please select a valid name");
-        keep0 = false;
-    }
-
-    if (sex == "Male" || sex == "Female") {
-        keep2 = true;
-    } else {
-        keep2 = false;
-    }
-
-    if (keep2 == true && keep0 == true) {
-        submitted = true;
-        document.getElementById("catform1").submit();
-    }
-
+  submitted = true;
+  document.getElementById("catform1").submit();
 }
 
 function checkcat2() {
-    var sterilized = document.getElementById("csterilized").value;
-    var alongwithdogs = document.getElementById("calongwithdogs").value;
-    var alongwithchildren = document.getElementById("calongwithchildren").value;
-    var alongwithcats = document.getElementById("calongwithcats").value;
-    var keep;
-    var keep1;
-    var keep2;
-    var keep3;
-
-    if (sterilized == "1" || sterilized == "0") {
-        keep = true;
-    } else {
-        keep = false;
-    }
-    if (alongwithdogs == "1" || alongwithdogs == "0") {
-        keep1 = true;
-    } else {
-        keep1 = false;
-    }
-    if (alongwithchildren == "1" || alongwithchildren == "0") {
-        keep2 = true;
-    } else {
-        keep2 = false;
-    }
-    if (alongwithcats == "1" || alongwithcats == "0") {
-        keep3 = true;
-    } else {
-        keep3 = false;
-    }
-
-    if (keep == false) {
-        alert("Please specify if your dog is sterilized");
-    }
-    if (keep1 == false) {
-        alert("Please specify if your dog is friendly with other dogs");
-    }
-    if (keep2 == false) {
-        alert("Please specify if your dog gets along with children");
-    }
-    if (keep3 == false) {
-        alert("Please specify if your dog gets along with cats");
-    }
-
-    if (keep == true && keep1 == true && keep2 == true && keep3 == true) {
-        submitted = true;
-        document.getElementById("catform2").submit();
-    }
+  submitted = true;
+  document.getElementById("catform2").submit();
 }
 </script>
 
@@ -625,7 +482,7 @@ function checkcat2() {
 <div id="dog1" style="display:none;" class="col-md-12 border border-success">
     <h1 class="display-4 text-success font-weight-bold">Updating your dog</h1>
     <form action="update_pet.php?p=2" method="post" id="dogform1">
-        <input type="file" accept="image/*" name="image"><br>
+        <input type="file" accept="image/*" name="petimage"><br>
         <label class="m-2 text-success font-weight-bold">Name</label>
         <input class="form-control m-2" id="name" name="name" placeholder="name" required value="<?php if (isset($pet["name"])){echo $pet["name"]; } else {} ?>">
         <label class="m-2 text-success font-weight-bold">Size*</label>
@@ -970,13 +827,13 @@ function checkcat2() {
 <div id="dog2" style="display:none"; class="col-md-12 border border-success">
     <h1 class="display-4 text-success font-weight-bold">Other information</h1>
     <form action="update_pet.php?p=3" method="post" id="dogform2">
-        <input type="file" accept="image/*" name="petimage" type="hidden">
+        <input type="file" accept="image/*" name="petimage" style="display:none" value="<?php if (isset($_FILES["petimage"])){$petimage=$_FILES["petimage"]; echo "<img src=$petimage />"; } ?>">
         <input name="name" placeholder="name" value="<?php if (isset($_POST["name"])){echo $_POST["name"]; } ?>" type="hidden">
         <input name="sex" placeholder="name" value="<?php if (isset($_POST["sex"])){echo $_POST["sex"]; } ?>" type="hidden">
         <input name="dogsize" placeholder="name"
             value="<?php if (isset($_POST["dogsize"])){echo $_POST["dogsize"]; } ?>" type="hidden">
         <input type="date" name="birthdate" placeholder="date of birth"
-            value="<?php if (isset($_POST["birthdate"])){echo $_POST["birthdate"]; } ?>" type="hidden">
+            value="<?php if (isset($_POST["birthdate"])){echo $_POST["birthdate"]; } ?>" style="display:none">
         <input name="breed" value="<?php if (isset($_POST["breed"])){echo $_POST["breed"]; } ?>" type="hidden">
         <input name="chip" placeholder="Chip number" value="<?php if (isset($_POST["chip"])){echo $_POST["chip"]; } ?>" type="hidden">
         <input name="description" placeholder="Description"
@@ -1033,11 +890,11 @@ function checkcat2() {
 <div id="cat2" style="display:none; width:800px; margin-left:20%; border:1px solid black;">
     <h1 class="display-4 text-success font-weight-bold">Other information</h1>
     <form action="update_pet.php?p=c3" method="post" id="catform2" type="hidden">
-        <input type="file" accept="image/*" name="petimage" type="hidden">
+        <input type="file" accept="image/*" name="petimage" style="display:none" value="<?php if (isset($_FILES["petimage"])){$petimage=$_FILES["petimage"]; echo "<img src=$petimage />"; } ?>">
         <input name="name" placeholder="name" value="<?php if (isset($_POST["name"])){echo $_POST["name"];} ?>" type="hidden">
         <input name="sex" placeholder="name" value="<?php if (isset($_POST["sex"])){echo $_POST["sex"];} ?>" type="hidden">
         <input type="date" name="birthdate" placeholder="date of birth"
-            value="<?php if (isset($_POST["birthdate"])){echo $_POST["birthdate"];} ?>" type="hidden">
+            value="<?php if (isset($_POST["birthdate"])){echo $_POST["birthdate"];} ?>" style="display:none">
         <input name="breed" value="<?php if (isset($_POST["breed"])){echo $_POST["breed"];} ?>" type="hidden">
         <input name="chip" placeholder="Chip number" value="<?php if (isset($_POST["chip"])){echo $_POST["chip"];} ?>" type="hidden">
         <input name="description" placeholder="Description"
@@ -1090,12 +947,12 @@ function checkcat2() {
 <div id="dog3" style="display:none; width:800px; margin-left:20%; border:1px solid black;">
     <h1 class="display-4 text-success font-weight-bold">Veterinarian and Insurance</h1>
     <form action="includes/petowner/update_pet_func.php" method="post">
-        <input type="file" accept="image/*" name="petimage" type="hidden">
+        <input type="file" accept="image/*" name="petimage" style="display:none" value="<?php if (isset($_FILES["petimage"])){$petimage=$_FILES["petimage"]; echo "<img src=$petimage />"; } ?>">
         <input name="name" value="<?php if (isset($_POST["name"])){echo $_POST["name"];} ?>" type="hidden">
         <input name="sex" value="<?php if (isset($_POST["sex"])){echo $_POST["sex"];} ?>" type="hidden">
         <input name="dogsize" placeholder="name"
             value="<?php if (isset($_POST["dogsize"])){echo $_POST["dogsize"];} ?>" type="hidden">
-        <input type="date" name="birthdate" value="<?php if (isset($_POST["birthdate"])){echo $_POST["birthdate"];} ?>" type="hidden">
+        <input type="date" name="birthdate" value="<?php if (isset($_POST["birthdate"])){echo $_POST["birthdate"];} ?>" style="display:none">
         <input name="breed" value="<?php if (isset($_POST["breed"])){echo $_POST["breed"];} ?>" type="hidden">
         <input name="chip" value="<?php if (isset($_POST["chip"])){echo $_POST["chip"];} ?>" type="hidden">
         <input name="description" value="<?php if (isset($_POST["description"])){echo $_POST["description"];} ?>" type="hidden">
@@ -1149,10 +1006,10 @@ function checkcat2() {
 
 <div id="cat3" style="display:none; width:800px; margin-left:20%; border:1px solid black;">
     <form action="includes/petowner/update_pet_func.php" method="post">
-        <input type="file" accept="image/*" name="petimage" type="hidden">
+        <input type="file" accept="image/*" name="petimage" style="display:none" value="<?php if (isset($_FILES["petimage"])){$petimage=$_FILES["petimage"]; echo "<img src=$petimage />"; } ?>">
         <input name="name" value="<?php if (isset($_POST["name"])){echo $_POST["name"]; }; ?>" type="hidden">
         <input name="sex" value="<?php if (isset($_POST["sex"])){echo $_POST["sex"];}; ?>" type="hidden">
-        <input name="birthdate" value="<?php if (isset($_POST["birthdate"])){echo $_POST["birthdate"];}; ?>" type="hidden">
+        <input name="birthdate" value="<?php if (isset($_POST["birthdate"])){echo $_POST["birthdate"];}; ?>" style="display:none">
         <input name="breed" value="<?php if (isset($_POST["breed"])){echo $_POST["breed"];}; ?>" type="hidden">
         <input name="chip" value="<?php if (isset($_POST["chip"])){echo $_POST["chip"];}; ?>" type="hidden">
         <input name="description" value="<?php if (isset($_POST["description"])){echo $_POST["description"];}; ?>" type="hidden">
