@@ -1,7 +1,5 @@
 <?php include 'header.php';?>
 
-<link rel="stylesheet" href="public/css/hotelownerdashboard.css">
-
   <div style="margin-top: 100px;"></div>
   <?php
   include 'includes/dbh-inic.php';
@@ -295,15 +293,17 @@
                             $files = glob($folder . '*');
                             $nbimages = count($files);
 
-                            if ($nbimages == 0) {} elseif ($nbimages == 1) {
+                            if ($nbimages == 0) {
+                              echo "No pictures found for your hotel, add one <a href='hotelupdate.php'>Here</a>";
+                            } elseif ($nbimages == 1) {
                               echo "<img src=$files[0] width=100%>";
                             } else {
                             ?>
-                          <div id="carouselIndicators" class="carousel slide" data-ride="carousel">
+                          <div id="carouselIndicators<?php echo $i;?>" class="carousel slide" data-ride="carousel">
                             <ol class="carousel-indicators">
-                              <li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
+                              <li data-target="#carouselIndicators<?php echo $i;?>" data-slide-to="0" class="active"></li>
                               <?php for ($j=1; $j < $nbimages; $j++) { ?>
-                              <li data-target="#carouselIndicators" data-slide-to="<?php echo $j; ?>"></li>
+                              <li data-target="#carouselIndicators<?php echo $i;?>" data-slide-to="<?php echo $j; ?>"></li>
                               <?php } ?>
                             </ol>
                             <div class="carousel-inner">
@@ -318,11 +318,11 @@
                             <?php } }?>
                             </div>
                           </div>
-                          <a class="carousel-control-prev" href="#carouselIndicators" role="button" data-slide="prev">
+                          <a class="carousel-control-prev" href="#carouselIndicators<?php echo $i;?>" role="button" data-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                             <span class="sr-only">Previous</span>
                           </a>
-                          <a class="carousel-control-next" href="#carouselIndicators" role="button" data-slide="next">
+                          <a class="carousel-control-next" href="#carouselIndicators<?php echo $i;?>" role="button" data-slide="next">
                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                             <span class="sr-only">Next</span>
                           </a>

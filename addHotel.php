@@ -8,19 +8,7 @@
 
 <?php if (isset($_SESSION['id'])): ?>
 
-  <?php
-  include 'includes/dbh-inic.php';
-  $i=0;
-  if (isset($_SESSION['id']))
-  {
-    $showQuery = "SELECT * FROM hotels where user_id='" . $_SESSION['id'] . "' and status ='1' ";
-    $resultShow = $pdo->prepare($showQuery);
-    $resultShow->execute();
-    $fetchResult = $resultShow->fetchAll(PDO::FETCH_ASSOC);
-
-  }?>
-
-      <main class="col-md-9 col px-5 pl-md-2 pt-2 main mx-auto">
+    <main class="col-md-9 col px-5 pl-md-2 pt-2 main mx-auto">
         <hr style="overflow:hidden;">
 
       <div class="container" id="1">

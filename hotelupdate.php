@@ -1,8 +1,5 @@
 <?php include 'header.php';?>
-
-<link rel="stylesheet" href="public/css/hotelownerdashboard.css">
-
-<?php if (isset($_SESSION['id'])): ?>
+  <?php if (isset($_SESSION['id'])): ?>
 
   <?php
   include 'includes/dbh-inic.php';
@@ -95,7 +92,7 @@
       <div class="col-md-12">
         <label for="hotelimg[]">Hotel Images</label>
         <br />
-        <input type="file" class="fileupload col-md-2" name="hotelimg[]" accept="image/x-png,image/gif,image/jpeg">
+        <input type="file" class="fileupload col-md-2" name="hotelimg[]" accept="image/x-png,image/gif,image/jpeg" multiple="yes">
         <div class="col-md-3">
           <div class="dvPreview"></div>
         </div>
@@ -118,7 +115,7 @@
         <!--<label id="#bb" class="choosePicture"><i class="fa fa-user-o fa-5x mt-5"></i>
           <input type="file" id="imgInp" name="picture" class="hotelOwnerPicture" size="60">
         </label>-->
-      </div>
+        </div>
 
       </div>
     </div>
@@ -191,15 +188,25 @@
     <div class="row">
       <div class="col-md-12">
         <input type="hidden" value="<?php echo $fetchResult['id'];?>" name="hotel_id">
-        <input type="submit" value="Modify You Hotel" name="hotel" class="form-control btn btn-outline-success" id="controlling">
+        <input type="submit" value="Modify Your Hotel" name="hotel" class="form-control btn btn-success" id="controlling">
       </div>
     </div>
   </div>
-</div>
+</form>
+<form action="includes/hotel/delete_hotel-func.php" method="post" enctype="multipart/form-data" onSubmit="return confirm('Are you sure you wish to delete?');">
+  <div class="container" style="margin-top:15px;">
+    <div class="row">
+      <div class="col-md-12">
+        <input type="hidden" value="<?php echo $fetchResult['id'];?>" name="hotel_id">
+        <input type="submit" value="Delete Your Hotel" name="hotel" class="form-control btn btn-danger">
+      </div>
+    </div>
+  </div>
 </form>
 
         </main>
       </div>
+    </div>
 <script>
 jQuery(function() {
     // Multiple images preview in browser
