@@ -270,7 +270,7 @@
                                   $fetchResultServices = $resultShowServices->fetchAll(PDO::FETCH_ASSOC);
 
                                   foreach ($fetchResultServices as $service_i) {
-                                  print_r($service_i);
+                                  //print_r($service_i);
                                  } ?>
                                 </div>
                                 <div class="row justify-content-center">
